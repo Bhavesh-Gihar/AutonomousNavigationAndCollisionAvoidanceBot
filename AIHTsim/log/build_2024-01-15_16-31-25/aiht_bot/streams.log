@@ -1,0 +1,33 @@
+[0.224s] Invoking command in '/home/bhavesh/Documents/AIHT/build/aiht_bot': /usr/bin/cmake /home/bhavesh/Documents/AIHT/src/AIHT -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AIHT/install/aiht_bot
+[0.271s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.800s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.836s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.054s] Error parsing '/home/bhavesh/Documents/AIHT/src/AIHT/package.xml':
+[1.242s] Traceback (most recent call last):
+[1.243s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.243s]     main()
+[1.244s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.244s]     raise e
+[1.245s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.245s]     package = parse_package_string(
+[1.245s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.246s]     pkg.validate(warnings=warnings)
+[1.246s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.246s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.246s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/bhavesh/Documents/AIHT/src/AIHT/package.xml':
+[1.247s] Package 'aiht_bot' must declare at least one maintainer
+[1.296s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.296s]   execute_process(/usr/bin/python3.10
+[1.297s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.297s]   /home/bhavesh/Documents/AIHT/src/AIHT/package.xml
+[1.297s]   /home/bhavesh/Documents/AIHT/build/aiht_bot/ament_cmake_core/package.cmake)
+[1.298s]   returned error code 1
+[1.298s] Call Stack (most recent call first):
+[1.298s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.299s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.299s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[1.299s] 
+[1.300s] [0m
+[1.300s] -- Configuring incomplete, errors occurred!
+[1.300s] See also "/home/bhavesh/Documents/AIHT/build/aiht_bot/CMakeFiles/CMakeOutput.log".
+[1.308s] Invoked command in '/home/bhavesh/Documents/AIHT/build/aiht_bot' returned '1': /usr/bin/cmake /home/bhavesh/Documents/AIHT/src/AIHT -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AIHT/install/aiht_bot

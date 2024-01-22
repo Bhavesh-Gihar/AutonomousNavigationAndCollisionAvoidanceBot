@@ -1,0 +1,29 @@
+[0.200s] Invoking command in '/home/bhavesh/Documents/AIHT/build/aiht_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhavesh/Documents/AIHT/src/AIHT -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AIHT/install/aiht_bot
+[0.406s] -- The C compiler identification is GNU 11.4.0
+[0.597s] -- The CXX compiler identification is GNU 11.4.0
+[0.623s] -- Detecting C compiler ABI info
+[0.904s] -- Detecting C compiler ABI info - done
+[0.941s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.942s] -- Detecting C compile features
+[0.944s] -- Detecting C compile features - done
+[0.961s] -- Detecting CXX compiler ABI info
+[1.265s] -- Detecting CXX compiler ABI info - done
+[1.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.298s] -- Detecting CXX compile features
+[1.300s] -- Detecting CXX compile features - done
+[1.311s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.018s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.275s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.401s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.647s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[2.648s]   ament_package_xml() package name 'aiht_bot' in '/package.xml' does not
+[2.648s]   match current PROJECT_NAME 'articubot_one'.  You must call project() with
+[2.649s]   the same package name before.
+[2.650s] Call Stack (most recent call first):
+[2.650s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.651s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[2.651s] 
+[2.652s] [0m
+[2.652s] -- Configuring incomplete, errors occurred!
+[2.653s] See also "/home/bhavesh/Documents/AIHT/build/aiht_bot/CMakeFiles/CMakeOutput.log".
+[2.668s] Invoked command in '/home/bhavesh/Documents/AIHT/build/aiht_bot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhavesh/Documents/AIHT/src/AIHT -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AIHT/install/aiht_bot
