@@ -1,2 +1,0 @@
-Invoking command in '/home/bhavesh/Documents/AIHT/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhavesh/Documents/AIHT/src/AIHT -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AIHT/install/articubot_one
-Invoked command in '/home/bhavesh/Documents/AIHT/build/articubot_one' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhavesh/Documents/AIHT/src/AIHT -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AIHT/install/articubot_one

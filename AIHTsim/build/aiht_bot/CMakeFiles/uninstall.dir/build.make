@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bhavesh/Documents/AIHT/src/AIHT
+CMAKE_SOURCE_DIR = /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bhavesh/Documents/AIHT/build/aiht_bot
+CMAKE_BINARY_DIR = /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/bhavesh/Documents/AIHT/build/aiht_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bhavesh/Documents/AIHT/src/AIHT /home/bhavesh/Documents/AIHT/src/AIHT /home/bhavesh/Documents/AIHT/build/aiht_bot /home/bhavesh/Documents/AIHT/build/aiht_bot /home/bhavesh/Documents/AIHT/build/aiht_bot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,1 +1,1 @@
-/home/bhavesh/Documents/AIHT/src/AIHT/launch/rplidar.launch.py
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT/launch/rplidar.launch.py

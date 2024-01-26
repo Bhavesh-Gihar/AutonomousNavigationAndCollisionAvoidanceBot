@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating ml_model.egg-info
+writing ml_model.egg-info/PKG-INFO
+writing dependency_links to ml_model.egg-info/dependency_links.txt
+writing entry points to ml_model.egg-info/entry_points.txt
+writing requirements to ml_model.egg-info/requires.txt
+writing top-level names to ml_model.egg-info/top_level.txt
+writing manifest file 'ml_model.egg-info/SOURCES.txt'
+reading manifest file 'ml_model.egg-info/SOURCES.txt'
+writing manifest file 'ml_model.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages/ml-model.egg-link (link to .)
+Installing model1 script to /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/ml_model
+
+Installed /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model
+running install_data
+creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index
+creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index/resource_index
+creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index/resource_index/packages
+copying resource/ml_model -> /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index/resource_index/packages
+copying package.xml -> /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model
