@@ -1,0 +1,11 @@
+[1.565s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8
+[1.737s] [35m[1mConsolidate compiler generated dependencies of target rfModel[0m
+[1.830s] [ 50%] [32mBuilding CXX object CMakeFiles/rfModel.dir/src/rfModel.cpp.o[0m
+[13.354s] [01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:[m[K In member function ‘[01m[Kvoid ScanSubscriber::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[13.355s] [01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kranges[m[K’
+[13.355s]    17 |     int class_index = classifier.predict(*scan_msg.[01;31m[Kranges[m[K);
+[13.356s]       |                                                    [01;31m[K^~~~~~[m[K
+[23.765s] gmake[2]: *** [CMakeFiles/rfModel.dir/build.make:76: CMakeFiles/rfModel.dir/src/rfModel.cpp.o] Error 1
+[23.766s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rfModel.dir/all] Error 2
+[23.767s] gmake: *** [Makefile:146: all] Error 2
+[23.776s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8

@@ -1,0 +1,25 @@
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:[m[K In member function ‘[01m[Kvoid ScanSubscriber::scanCallback(sensor_msgs::msg::LaserScan)[m[K’:
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:11:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   17 |     float[[01;31m[K360[m[K] ranges = {0};
+      |           [01;31m[K^~~[m[K
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before numeric constant
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:10:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kfloat[m[K’
+   17 |     float[01;31m[K[[m[K360] ranges = {0};
+      |          [01;31m[K^[m[K
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:10:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:10:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:16:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kranges[m[K’
+   17 |     float[360] [01;31m[Kranges[m[K = {0};
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kranges[m[K’ was not declared in this scope
+   19 |         [01;31m[Kranges[m[K[i] = scan_msg.ranges[i];
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:21:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kranges[m[K’ was not declared in this scope
+   21 |     int class_index = classifier.predict([01;31m[Kranges[m[K);
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:10:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   17 |     float[01;35m[K[[m[K360] ranges = {0};
+      |          [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/rfModel.dir/build.make:76: CMakeFiles/rfModel.dir/src/rfModel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rfModel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,47 @@
+[0.931s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot -- -j8 -l8
+[2.405s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot -- -j8 -l8
+[2.526s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot
+[2.555s] -- Install configuration: ""
+[2.558s] -- Execute custom install script
+[2.561s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_robot.yaml
+[2.561s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_sim.yaml
+[2.563s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/drive_bot.rviz
+[2.563s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/empty.yaml
+[2.564s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gaz_ros2_ctl_use_sim.yaml
+[2.565s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gazebo_params.yaml
+[2.566s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/joystick.yaml
+[2.568s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/main.rviz
+[2.569s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/map.rviz
+[2.570s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/mapper_params_online_async.yaml
+[2.571s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/my_controllers.yaml
+[2.572s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/nav2_params.yaml
+[2.574s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/twist_mux.yaml
+[2.574s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/view_bot.rviz
+[2.575s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/gazebo_control.xacro
+[2.575s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/inertial_macros.xacro
+[2.576s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/lidar.xacro
+[2.577s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot.urdf.xacro
+[2.577s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot_core.xacro
+[2.578s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/ros2_control.xacro
+[2.579s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/joystick.launch.py
+[2.580s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_robot.launch.py
+[2.581s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_sim.launch.py
+[2.581s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rplidar.launch.py
+[2.582s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rsp.launch.py
+[2.583s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/worlds/empty.world
+[2.583s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/package_run_dependencies/aiht_bot
+[2.584s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/parent_prefix_path/aiht_bot
+[2.585s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.sh
+[2.586s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.dsv
+[2.587s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.sh
+[2.588s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.dsv
+[2.588s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.bash
+[2.590s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.sh
+[2.590s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.zsh
+[2.591s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.dsv
+[2.592s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.dsv
+[2.638s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/packages/aiht_bot
+[2.639s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig.cmake
+[2.640s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig-version.cmake
+[2.641s] -- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.xml
+[2.649s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot

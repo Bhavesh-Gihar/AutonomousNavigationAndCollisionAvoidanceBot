@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/rfModel" "TARGETS" "rfModel" "DESTINATION" "lib/tinyml_model")

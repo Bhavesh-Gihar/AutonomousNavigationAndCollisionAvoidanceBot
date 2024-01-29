@@ -1,0 +1,10 @@
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/uninstall.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/tinyml_model_uninstall.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/rfModel.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/test.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/edit_cache.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/rebuild_cache.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/list_install_components.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/install.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/install/local.dir
+/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model/CMakeFiles/install/strip.dir

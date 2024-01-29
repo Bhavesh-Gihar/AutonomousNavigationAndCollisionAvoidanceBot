@@ -1,0 +1,340 @@
+[0.000000] (-) TimerEvent: {}
+[0.000462] (aiht_bot) JobQueued: {'identifier': 'aiht_bot', 'dependencies': OrderedDict()}
+[0.000666] (ml_model) JobQueued: {'identifier': 'ml_model', 'dependencies': OrderedDict()}
+[0.000800] (tinyml_model) JobQueued: {'identifier': 'tinyml_model', 'dependencies': OrderedDict()}
+[0.000888] (aiht_bot) JobStarted: {'identifier': 'aiht_bot'}
+[0.098151] (-) TimerEvent: {}
+[0.198799] (-) TimerEvent: {}
+[0.256220] (ml_model) JobStarted: {'identifier': 'ml_model'}
+[0.299263] (-) TimerEvent: {}
+[0.400380] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.586866] (tinyml_model) JobStarted: {'identifier': 'tinyml_model'}
+[0.601795] (-) TimerEvent: {}
+[0.702787] (-) TimerEvent: {}
+[0.804231] (-) TimerEvent: {}
+[0.828868] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'cmake'}
+[0.830895] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'build'}
+[0.834571] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', '--', '-j8', '-l8'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3944'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.904483] (-) TimerEvent: {}
+[1.005227] (-) TimerEvent: {}
+[1.106091] (-) TimerEvent: {}
+[1.206721] (-) TimerEvent: {}
+[1.307408] (-) TimerEvent: {}
+[1.407980] (-) TimerEvent: {}
+[1.508587] (-) TimerEvent: {}
+[1.609171] (-) TimerEvent: {}
+[1.709738] (-) TimerEvent: {}
+[1.810311] (-) TimerEvent: {}
+[1.910925] (-) TimerEvent: {}
+[2.012149] (-) TimerEvent: {}
+[2.113359] (-) TimerEvent: {}
+[2.140298] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'cmake'}
+[2.142710] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'build'}
+[2.145360] (tinyml_model) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', '--', '-j8', '-l8'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3944'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.152466] (aiht_bot) CommandEnded: {'returncode': 0}
+[2.213532] (-) TimerEvent: {}
+[2.238700] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'install'}
+[2.277941] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3944'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.313620] (aiht_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.314583] (-) TimerEvent: {}
+[2.316106] (aiht_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.319228] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_robot.yaml\n'}
+[2.320112] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_sim.yaml\n'}
+[2.320780] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/drive_bot.rviz\n'}
+[2.321416] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/empty.yaml\n'}
+[2.322029] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.322620] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gazebo_params.yaml\n'}
+[2.323594] (tinyml_model) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rfModel\x1b[0m\n'}
+[2.324227] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/joystick.yaml\n'}
+[2.324786] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/main.rviz\n'}
+[2.325298] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/map.rviz\n'}
+[2.325704] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/mapper_params_online_async.yaml\n'}
+[2.326280] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/my_controllers.yaml\n'}
+[2.326894] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/nav2_params.yaml\n'}
+[2.327570] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/twist_mux.yaml\n'}
+[2.328266] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/view_bot.rviz\n'}
+[2.329720] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/gazebo_control.xacro\n'}
+[2.330503] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/inertial_macros.xacro\n'}
+[2.331318] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/lidar.xacro\n'}
+[2.333134] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot.urdf.xacro\n'}
+[2.333796] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot_core.xacro\n'}
+[2.334562] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/ros2_control.xacro\n'}
+[2.335711] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/joystick.launch.py\n'}
+[2.336555] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_robot.launch.py\n'}
+[2.337406] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_sim.launch.py\n'}
+[2.338278] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rplidar.launch.py\n'}
+[2.339098] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rsp.launch.py\n'}
+[2.340441] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/worlds/empty.world\n'}
+[2.341573] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/package_run_dependencies/aiht_bot\n'}
+[2.343129] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/parent_prefix_path/aiht_bot\n'}
+[2.344452] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.sh\n'}
+[2.345800] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.dsv\n'}
+[2.347526] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.sh\n'}
+[2.348802] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.dsv\n'}
+[2.350000] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.bash\n'}
+[2.351219] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.sh\n'}
+[2.352628] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.zsh\n'}
+[2.353727] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.dsv\n'}
+[2.354615] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.dsv\n'}
+[2.389582] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/packages/aiht_bot\n'}
+[2.391144] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig.cmake\n'}
+[2.392014] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig-version.cmake\n'}
+[2.392690] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.xml\n'}
+[2.399334] (aiht_bot) CommandEnded: {'returncode': 0}
+[2.415227] (-) TimerEvent: {}
+[2.416120] (tinyml_model) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rfModel.dir/src/rfModel.cpp.o\x1b[0m\n'}
+[2.515609] (-) TimerEvent: {}
+[2.616608] (-) TimerEvent: {}
+[2.718234] (-) TimerEvent: {}
+[2.819166] (-) TimerEvent: {}
+[2.920517] (-) TimerEvent: {}
+[3.021292] (-) TimerEvent: {}
+[3.122032] (-) TimerEvent: {}
+[3.218680] (aiht_bot) JobEnded: {'identifier': 'aiht_bot', 'rc': 0}
+[3.222203] (-) TimerEvent: {}
+[3.322844] (-) TimerEvent: {}
+[3.423593] (-) TimerEvent: {}
+[3.524285] (-) TimerEvent: {}
+[3.625006] (-) TimerEvent: {}
+[3.725662] (-) TimerEvent: {}
+[3.826352] (-) TimerEvent: {}
+[3.841662] (ml_model) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build', '--no-deps', 'install_data'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'bhavesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bhavesh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1598', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bhavesh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bhavesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LJD6H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.3944', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.926552] (-) TimerEvent: {}
+[4.027211] (-) TimerEvent: {}
+[4.127932] (-) TimerEvent: {}
+[4.228847] (-) TimerEvent: {}
+[4.329696] (-) TimerEvent: {}
+[4.430535] (-) TimerEvent: {}
+[4.531408] (-) TimerEvent: {}
+[4.632247] (-) TimerEvent: {}
+[4.733106] (-) TimerEvent: {}
+[4.833948] (-) TimerEvent: {}
+[4.934791] (-) TimerEvent: {}
+[5.035665] (-) TimerEvent: {}
+[5.092427] (ml_model) StdoutLine: {'line': b'running develop\n'}
+[5.093770] (ml_model) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.094476] (ml_model) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.098772] (ml_model) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.099473] (ml_model) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.135867] (-) TimerEvent: {}
+[5.236707] (-) TimerEvent: {}
+[5.337543] (-) TimerEvent: {}
+[5.438384] (-) TimerEvent: {}
+[5.539266] (-) TimerEvent: {}
+[5.640068] (-) TimerEvent: {}
+[5.740917] (-) TimerEvent: {}
+[5.841752] (-) TimerEvent: {}
+[5.942592] (-) TimerEvent: {}
+[6.026953] (ml_model) StdoutLine: {'line': b'running egg_info\n'}
+[6.028107] (ml_model) StdoutLine: {'line': b'writing ml_model.egg-info/PKG-INFO\n'}
+[6.028957] (ml_model) StdoutLine: {'line': b'writing dependency_links to ml_model.egg-info/dependency_links.txt\n'}
+[6.029646] (ml_model) StdoutLine: {'line': b'writing entry points to ml_model.egg-info/entry_points.txt\n'}
+[6.030453] (ml_model) StdoutLine: {'line': b'writing requirements to ml_model.egg-info/requires.txt\n'}
+[6.030884] (ml_model) StdoutLine: {'line': b'writing top-level names to ml_model.egg-info/top_level.txt\n'}
+[6.037727] (ml_model) StdoutLine: {'line': b"reading manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[6.040419] (ml_model) StdoutLine: {'line': b"writing manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[6.042751] (-) TimerEvent: {}
+[6.045402] (ml_model) StdoutLine: {'line': b'running build_ext\n'}
+[6.046340] (ml_model) StdoutLine: {'line': b'Creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages/ml-model.egg-link (link to .)\n'}
+[6.049625] (ml_model) StdoutLine: {'line': b'Installing model script to /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/ml_model\n'}
+[6.050650] (ml_model) StdoutLine: {'line': b'\n'}
+[6.051088] (ml_model) StdoutLine: {'line': b'Installed /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model\n'}
+[6.051738] (ml_model) StdoutLine: {'line': b'running install_data\n'}
+[6.142971] (-) TimerEvent: {}
+[6.154622] (ml_model) CommandEnded: {'returncode': 0}
+[6.243884] (-) TimerEvent: {}
+[6.344779] (-) TimerEvent: {}
+[6.446120] (-) TimerEvent: {}
+[6.543962] (ml_model) JobEnded: {'identifier': 'ml_model', 'rc': 0}
+[6.546271] (-) TimerEvent: {}
+[6.646904] (-) TimerEvent: {}
+[6.747611] (-) TimerEvent: {}
+[6.848312] (-) TimerEvent: {}
+[6.949000] (-) TimerEvent: {}
+[7.049729] (-) TimerEvent: {}
+[7.150554] (-) TimerEvent: {}
+[7.251411] (-) TimerEvent: {}
+[7.352295] (-) TimerEvent: {}
+[7.453130] (-) TimerEvent: {}
+[7.553960] (-) TimerEvent: {}
+[7.654776] (-) TimerEvent: {}
+[7.755622] (-) TimerEvent: {}
+[7.856442] (-) TimerEvent: {}
+[7.957273] (-) TimerEvent: {}
+[8.058092] (-) TimerEvent: {}
+[8.158908] (-) TimerEvent: {}
+[8.259787] (-) TimerEvent: {}
+[8.360639] (-) TimerEvent: {}
+[8.461516] (-) TimerEvent: {}
+[8.562383] (-) TimerEvent: {}
+[8.663279] (-) TimerEvent: {}
+[8.764220] (-) TimerEvent: {}
+[8.865060] (-) TimerEvent: {}
+[8.965916] (-) TimerEvent: {}
+[9.066755] (-) TimerEvent: {}
+[9.167501] (-) TimerEvent: {}
+[9.268265] (-) TimerEvent: {}
+[9.369025] (-) TimerEvent: {}
+[9.469809] (-) TimerEvent: {}
+[9.570579] (-) TimerEvent: {}
+[9.671421] (-) TimerEvent: {}
+[9.772169] (-) TimerEvent: {}
+[9.873060] (-) TimerEvent: {}
+[9.974063] (-) TimerEvent: {}
+[10.075169] (-) TimerEvent: {}
+[10.176215] (-) TimerEvent: {}
+[10.277145] (-) TimerEvent: {}
+[10.377909] (-) TimerEvent: {}
+[10.478580] (-) TimerEvent: {}
+[10.579211] (-) TimerEvent: {}
+[10.679921] (-) TimerEvent: {}
+[10.780684] (-) TimerEvent: {}
+[10.881350] (-) TimerEvent: {}
+[10.982016] (-) TimerEvent: {}
+[11.082684] (-) TimerEvent: {}
+[11.183435] (-) TimerEvent: {}
+[11.284163] (-) TimerEvent: {}
+[11.384838] (-) TimerEvent: {}
+[11.485495] (-) TimerEvent: {}
+[11.586112] (-) TimerEvent: {}
+[11.686649] (-) TimerEvent: {}
+[11.787205] (-) TimerEvent: {}
+[11.887781] (-) TimerEvent: {}
+[11.988337] (-) TimerEvent: {}
+[12.088901] (-) TimerEvent: {}
+[12.189529] (-) TimerEvent: {}
+[12.290169] (-) TimerEvent: {}
+[12.390793] (-) TimerEvent: {}
+[12.491421] (-) TimerEvent: {}
+[12.592313] (-) TimerEvent: {}
+[12.693008] (-) TimerEvent: {}
+[12.793698] (-) TimerEvent: {}
+[12.894420] (-) TimerEvent: {}
+[12.995096] (-) TimerEvent: {}
+[13.095820] (-) TimerEvent: {}
+[13.196503] (-) TimerEvent: {}
+[13.297231] (-) TimerEvent: {}
+[13.397956] (-) TimerEvent: {}
+[13.498664] (-) TimerEvent: {}
+[13.599386] (-) TimerEvent: {}
+[13.700132] (-) TimerEvent: {}
+[13.800827] (-) TimerEvent: {}
+[13.901521] (-) TimerEvent: {}
+[13.941000] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ScanSubscriber::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.941585] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kranges\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.941952] (tinyml_model) StderrLine: {'line': b'   17 |     int class_index = classifier.predict(*scan_msg.\x1b[01;31m\x1b[Kranges\x1b[m\x1b[K);\n'}
+[13.942262] (tinyml_model) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[14.001741] (-) TimerEvent: {}
+[14.102463] (-) TimerEvent: {}
+[14.203208] (-) TimerEvent: {}
+[14.303920] (-) TimerEvent: {}
+[14.404597] (-) TimerEvent: {}
+[14.505298] (-) TimerEvent: {}
+[14.606042] (-) TimerEvent: {}
+[14.706835] (-) TimerEvent: {}
+[14.807613] (-) TimerEvent: {}
+[14.908414] (-) TimerEvent: {}
+[15.009173] (-) TimerEvent: {}
+[15.109934] (-) TimerEvent: {}
+[15.210700] (-) TimerEvent: {}
+[15.311450] (-) TimerEvent: {}
+[15.412197] (-) TimerEvent: {}
+[15.512938] (-) TimerEvent: {}
+[15.613694] (-) TimerEvent: {}
+[15.714453] (-) TimerEvent: {}
+[15.815205] (-) TimerEvent: {}
+[15.915994] (-) TimerEvent: {}
+[16.016744] (-) TimerEvent: {}
+[16.117496] (-) TimerEvent: {}
+[16.218254] (-) TimerEvent: {}
+[16.319007] (-) TimerEvent: {}
+[16.419783] (-) TimerEvent: {}
+[16.520532] (-) TimerEvent: {}
+[16.621297] (-) TimerEvent: {}
+[16.722054] (-) TimerEvent: {}
+[16.822813] (-) TimerEvent: {}
+[16.923634] (-) TimerEvent: {}
+[17.024438] (-) TimerEvent: {}
+[17.125240] (-) TimerEvent: {}
+[17.226023] (-) TimerEvent: {}
+[17.326810] (-) TimerEvent: {}
+[17.427645] (-) TimerEvent: {}
+[17.528468] (-) TimerEvent: {}
+[17.629390] (-) TimerEvent: {}
+[17.730287] (-) TimerEvent: {}
+[17.831083] (-) TimerEvent: {}
+[17.931897] (-) TimerEvent: {}
+[18.032675] (-) TimerEvent: {}
+[18.133503] (-) TimerEvent: {}
+[18.234333] (-) TimerEvent: {}
+[18.335279] (-) TimerEvent: {}
+[18.436208] (-) TimerEvent: {}
+[18.537119] (-) TimerEvent: {}
+[18.638034] (-) TimerEvent: {}
+[18.738948] (-) TimerEvent: {}
+[18.839912] (-) TimerEvent: {}
+[18.940827] (-) TimerEvent: {}
+[19.041842] (-) TimerEvent: {}
+[19.142935] (-) TimerEvent: {}
+[19.244087] (-) TimerEvent: {}
+[19.345175] (-) TimerEvent: {}
+[19.446237] (-) TimerEvent: {}
+[19.547344] (-) TimerEvent: {}
+[19.648313] (-) TimerEvent: {}
+[19.749122] (-) TimerEvent: {}
+[19.850163] (-) TimerEvent: {}
+[19.951135] (-) TimerEvent: {}
+[20.051939] (-) TimerEvent: {}
+[20.152695] (-) TimerEvent: {}
+[20.253447] (-) TimerEvent: {}
+[20.354209] (-) TimerEvent: {}
+[20.454959] (-) TimerEvent: {}
+[20.555767] (-) TimerEvent: {}
+[20.656527] (-) TimerEvent: {}
+[20.757321] (-) TimerEvent: {}
+[20.858083] (-) TimerEvent: {}
+[20.958840] (-) TimerEvent: {}
+[21.059635] (-) TimerEvent: {}
+[21.160385] (-) TimerEvent: {}
+[21.261146] (-) TimerEvent: {}
+[21.361908] (-) TimerEvent: {}
+[21.462667] (-) TimerEvent: {}
+[21.563434] (-) TimerEvent: {}
+[21.664178] (-) TimerEvent: {}
+[21.765105] (-) TimerEvent: {}
+[21.865866] (-) TimerEvent: {}
+[21.966656] (-) TimerEvent: {}
+[22.067416] (-) TimerEvent: {}
+[22.168176] (-) TimerEvent: {}
+[22.268930] (-) TimerEvent: {}
+[22.369683] (-) TimerEvent: {}
+[22.470440] (-) TimerEvent: {}
+[22.571191] (-) TimerEvent: {}
+[22.672018] (-) TimerEvent: {}
+[22.772826] (-) TimerEvent: {}
+[22.873779] (-) TimerEvent: {}
+[22.974786] (-) TimerEvent: {}
+[23.075574] (-) TimerEvent: {}
+[23.176324] (-) TimerEvent: {}
+[23.277080] (-) TimerEvent: {}
+[23.377833] (-) TimerEvent: {}
+[23.478593] (-) TimerEvent: {}
+[23.579390] (-) TimerEvent: {}
+[23.680156] (-) TimerEvent: {}
+[23.780912] (-) TimerEvent: {}
+[23.881674] (-) TimerEvent: {}
+[23.982442] (-) TimerEvent: {}
+[24.083183] (-) TimerEvent: {}
+[24.183889] (-) TimerEvent: {}
+[24.284570] (-) TimerEvent: {}
+[24.351449] (tinyml_model) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rfModel.dir/build.make:76: CMakeFiles/rfModel.dir/src/rfModel.cpp.o] Error 1\n'}
+[24.352367] (tinyml_model) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rfModel.dir/all] Error 2\n'}
+[24.353439] (tinyml_model) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.361944] (tinyml_model) CommandEnded: {'returncode': 2}
+[24.384782] (-) TimerEvent: {}
+[24.485665] (-) TimerEvent: {}
+[24.586532] (-) TimerEvent: {}
+[24.687197] (-) TimerEvent: {}
+[24.727648] (tinyml_model) JobEnded: {'identifier': 'tinyml_model', 'rc': 2}
+[24.740087] (-) EventReactorShutdown: {}

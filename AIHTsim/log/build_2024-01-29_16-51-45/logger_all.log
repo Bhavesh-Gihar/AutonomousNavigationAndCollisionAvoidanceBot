@@ -1,0 +1,231 @@
+[3.868s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.868s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5c31ab97b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5c31abab00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5c31abab00>>)
+[4.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.069s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim'
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extensions ['ignore', 'ignore_ament_install']
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extension 'ignore'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extension 'ignore_ament_install'
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extensions ['colcon_pkg']
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extension 'colcon_pkg'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extensions ['colcon_meta']
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extension 'colcon_meta'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extensions ['ros']
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/AIHT) by extension 'ros'
+[4.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AIHT' with type 'ros.ament_cmake' and name 'aiht_bot'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extensions ['ignore', 'ignore_ament_install']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extension 'ignore'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extension 'ignore_ament_install'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extensions ['colcon_pkg']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extension 'colcon_pkg'
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extensions ['colcon_meta']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extension 'colcon_meta'
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extensions ['ros']
+[4.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ml_model) by extension 'ros'
+[4.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ml_model' with type 'ros.ament_python' and name 'ml_model'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extensions ['ignore', 'ignore_ament_install']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extension 'ignore'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extension 'ignore_ament_install'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extensions ['colcon_pkg']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extension 'colcon_pkg'
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extensions ['colcon_meta']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extension 'colcon_meta'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extensions ['ros']
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/tinyml_model) by extension 'ros'
+[4.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tinyml_model' with type 'ros.ament_cmake' and name 'tinyml_model'
+[4.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/humble
+[4.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.239s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'cmake_args' from command line to 'None'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'cmake_target' from command line to 'None'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'cmake_clean_first' from command line to 'False'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'cmake_force_configure' from command line to 'False'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'ament_cmake_args' from command line to 'None'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[5.240s] Level 5:colcon.colcon_core.verb:set package 'aiht_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.241s] DEBUG:colcon.colcon_core.verb:Building package 'aiht_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot', 'merge_install': False, 'path': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT', 'symlink_install': True, 'test_result_base': None}
+[5.308s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'cmake_args' from command line to 'None'
+[5.308s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'cmake_target' from command line to 'None'
+[5.308s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.308s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'cmake_clean_cache' from command line to 'False'
+[5.309s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'cmake_clean_first' from command line to 'False'
+[5.309s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'cmake_force_configure' from command line to 'False'
+[5.309s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'ament_cmake_args' from command line to 'None'
+[5.309s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'catkin_cmake_args' from command line to 'None'
+[5.309s] Level 5:colcon.colcon_core.verb:set package 'ml_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.309s] DEBUG:colcon.colcon_core.verb:Building package 'ml_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model', 'merge_install': False, 'path': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/ml_model', 'symlink_install': True, 'test_result_base': None}
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'cmake_args' from command line to 'None'
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'cmake_target' from command line to 'None'
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'cmake_clean_cache' from command line to 'False'
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'cmake_clean_first' from command line to 'False'
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'cmake_force_configure' from command line to 'False'
+[5.374s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'ament_cmake_args' from command line to 'None'
+[5.375s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'catkin_cmake_args' from command line to 'None'
+[5.375s] Level 5:colcon.colcon_core.verb:set package 'tinyml_model' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.375s] DEBUG:colcon.colcon_core.verb:Building package 'tinyml_model' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model', 'merge_install': False, 'path': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model', 'symlink_install': True, 'test_result_base': None}
+[5.442s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT' with build type 'ament_cmake'
+[5.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT'
+[5.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.762s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/ml_model' with build type 'ament_python'
+[5.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('ml_model', 'ament_prefix_path')
+[5.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/hook/ament_prefix_path.ps1'
+[5.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/hook/ament_prefix_path.dsv'
+[5.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/hook/ament_prefix_path.sh'
+[5.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.934s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.084s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model' with build type 'ament_cmake'
+[6.084s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model'
+[6.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot -- -j8 -l8
+[7.391s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/ml_model'
+[7.471s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8
+[7.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot -- -j8 -l8
+[7.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot
+[7.883s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aiht_bot)
+[7.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot
+[7.995s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot' for CMake module files
+[7.999s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot' for CMake config files
+[8.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('aiht_bot', 'cmake_prefix_path')
+[8.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/hook/cmake_prefix_path.ps1'
+[8.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/hook/cmake_prefix_path.dsv'
+[8.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/hook/cmake_prefix_path.sh'
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/bin'
+[8.133s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/lib/pkgconfig/aiht_bot.pc'
+[8.134s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/lib/python3.10/site-packages'
+[8.135s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/bin'
+[8.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.ps1'
+[8.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.dsv'
+[8.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.sh'
+[8.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.bash'
+[8.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.zsh'
+[8.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/colcon-core/packages/aiht_bot)
+[8.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aiht_bot)
+[8.523s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot' for CMake module files
+[8.525s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot' for CMake config files
+[8.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('aiht_bot', 'cmake_prefix_path')
+[8.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/hook/cmake_prefix_path.ps1'
+[8.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/hook/cmake_prefix_path.dsv'
+[8.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/hook/cmake_prefix_path.sh'
+[8.621s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/bin'
+[8.621s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/lib/pkgconfig/aiht_bot.pc'
+[8.622s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/lib/python3.10/site-packages'
+[8.623s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/bin'
+[8.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.ps1'
+[8.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.dsv'
+[8.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.sh'
+[8.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.bash'
+[8.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.zsh'
+[8.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/colcon-core/packages/aiht_bot)
+[9.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model': PYTHONPATH=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build --no-deps install_data
+[11.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('ml_model', 'pythonpath_develop')
+[11.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model' returned '0': PYTHONPATH=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build --no-deps install_data
+[11.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/share/ml_model/hook/pythonpath_develop.ps1'
+[11.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/share/ml_model/hook/pythonpath_develop.dsv'
+[11.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/share/ml_model/hook/pythonpath_develop.sh'
+[11.899s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model' for CMake module files
+[11.901s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model' for CMake config files
+[11.902s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib'
+[11.903s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/bin'
+[11.904s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/pkgconfig/ml_model.pc'
+[11.905s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages'
+[11.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('ml_model', 'pythonpath')
+[11.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/hook/pythonpath.ps1'
+[11.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/hook/pythonpath.dsv'
+[11.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/hook/pythonpath.sh'
+[11.997s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/bin'
+[11.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ml_model)
+[12.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/package.ps1'
+[12.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/package.dsv'
+[12.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/package.sh'
+[12.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/package.bash'
+[12.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model/package.zsh'
+[12.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/colcon-core/packages/ml_model)
+[28.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8
+[28.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tinyml_model)
+[28.998s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model' for CMake module files
+[28.999s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model' for CMake config files
+[29.001s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/bin'
+[29.001s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/lib/pkgconfig/tinyml_model.pc'
+[29.002s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/lib/python3.10/site-packages'
+[29.003s] Level 1:colcon.colcon_core.environment:checking '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/bin'
+[29.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.ps1'
+[29.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.dsv'
+[29.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.sh'
+[29.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.bash'
+[29.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.zsh'
+[29.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/colcon-core/packages/tinyml_model)
+[29.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[29.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.226s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.273s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/local_setup.ps1'
+[29.369s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/_local_setup_util_ps1.py'
+[29.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/setup.ps1'
+[29.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/local_setup.sh'
+[29.472s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/_local_setup_util_sh.py'
+[29.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/setup.sh'
+[29.569s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/local_setup.bash'
+[29.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/setup.bash'
+[29.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/local_setup.zsh'
+[29.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/setup.zsh'

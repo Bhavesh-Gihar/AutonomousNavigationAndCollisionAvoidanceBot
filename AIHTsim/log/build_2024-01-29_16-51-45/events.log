@@ -1,0 +1,412 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (aiht_bot) JobQueued: {'identifier': 'aiht_bot', 'dependencies': OrderedDict()}
+[0.000531] (ml_model) JobQueued: {'identifier': 'ml_model', 'dependencies': OrderedDict()}
+[0.000617] (tinyml_model) JobQueued: {'identifier': 'tinyml_model', 'dependencies': OrderedDict()}
+[0.001117] (aiht_bot) JobStarted: {'identifier': 'aiht_bot'}
+[0.097418] (-) TimerEvent: {}
+[0.199089] (-) TimerEvent: {}
+[0.251081] (ml_model) JobStarted: {'identifier': 'ml_model'}
+[0.299317] (-) TimerEvent: {}
+[0.401105] (-) TimerEvent: {}
+[0.502907] (-) TimerEvent: {}
+[0.572723] (tinyml_model) JobStarted: {'identifier': 'tinyml_model'}
+[0.603474] (-) TimerEvent: {}
+[0.704397] (-) TimerEvent: {}
+[0.804011] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'cmake'}
+[0.805029] (-) TimerEvent: {}
+[0.806818] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'build'}
+[0.809242] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', '--', '-j8', '-l8'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3944'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.905250] (-) TimerEvent: {}
+[1.005934] (-) TimerEvent: {}
+[1.106590] (-) TimerEvent: {}
+[1.207207] (-) TimerEvent: {}
+[1.307763] (-) TimerEvent: {}
+[1.408368] (-) TimerEvent: {}
+[1.508949] (-) TimerEvent: {}
+[1.609520] (-) TimerEvent: {}
+[1.710086] (-) TimerEvent: {}
+[1.810675] (-) TimerEvent: {}
+[1.911611] (-) TimerEvent: {}
+[2.012485] (-) TimerEvent: {}
+[2.111359] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'cmake'}
+[2.112863] (-) TimerEvent: {}
+[2.114357] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'build'}
+[2.116909] (tinyml_model) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', '--', '-j8', '-l8'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3944'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.124199] (aiht_bot) CommandEnded: {'returncode': 0}
+[2.209374] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'install'}
+[2.213041] (-) TimerEvent: {}
+[2.245098] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.3944'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.276675] (aiht_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.279569] (tinyml_model) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rfModel\x1b[0m\n'}
+[2.280567] (aiht_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.284717] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_robot.yaml\n'}
+[2.285568] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_sim.yaml\n'}
+[2.286623] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/drive_bot.rviz\n'}
+[2.287542] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/empty.yaml\n'}
+[2.288596] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.289283] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gazebo_params.yaml\n'}
+[2.290162] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/joystick.yaml\n'}
+[2.290989] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/main.rviz\n'}
+[2.292071] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/map.rviz\n'}
+[2.292880] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/mapper_params_online_async.yaml\n'}
+[2.293682] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/my_controllers.yaml\n'}
+[2.294476] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/nav2_params.yaml\n'}
+[2.295287] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/twist_mux.yaml\n'}
+[2.296113] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/view_bot.rviz\n'}
+[2.298338] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/gazebo_control.xacro\n'}
+[2.299816] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/inertial_macros.xacro\n'}
+[2.303358] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/lidar.xacro\n'}
+[2.304175] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot.urdf.xacro\n'}
+[2.304830] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot_core.xacro\n'}
+[2.305693] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/ros2_control.xacro\n'}
+[2.306354] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/joystick.launch.py\n'}
+[2.307244] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_robot.launch.py\n'}
+[2.308201] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_sim.launch.py\n'}
+[2.308872] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rplidar.launch.py\n'}
+[2.309500] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rsp.launch.py\n'}
+[2.310237] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/worlds/empty.world\n'}
+[2.311026] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/package_run_dependencies/aiht_bot\n'}
+[2.311799] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/parent_prefix_path/aiht_bot\n'}
+[2.312536] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.sh\n'}
+[2.313099] (-) TimerEvent: {}
+[2.314024] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.dsv\n'}
+[2.314798] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.sh\n'}
+[2.315469] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.dsv\n'}
+[2.316537] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.bash\n'}
+[2.318662] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.sh\n'}
+[2.319592] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.zsh\n'}
+[2.320643] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.dsv\n'}
+[2.321568] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.dsv\n'}
+[2.360613] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/packages/aiht_bot\n'}
+[2.361762] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig.cmake\n'}
+[2.362721] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig-version.cmake\n'}
+[2.363876] (aiht_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.xml\n'}
+[2.371890] (aiht_bot) CommandEnded: {'returncode': 0}
+[2.374248] (tinyml_model) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rfModel.dir/src/rfModel.cpp.o\x1b[0m\n'}
+[2.415077] (-) TimerEvent: {}
+[2.516282] (-) TimerEvent: {}
+[2.618311] (-) TimerEvent: {}
+[2.724683] (-) TimerEvent: {}
+[2.825811] (-) TimerEvent: {}
+[2.926806] (-) TimerEvent: {}
+[3.027642] (-) TimerEvent: {}
+[3.128936] (-) TimerEvent: {}
+[3.210730] (aiht_bot) JobEnded: {'identifier': 'aiht_bot', 'rc': 0}
+[3.229116] (-) TimerEvent: {}
+[3.329937] (-) TimerEvent: {}
+[3.430719] (-) TimerEvent: {}
+[3.531576] (-) TimerEvent: {}
+[3.632397] (-) TimerEvent: {}
+[3.733381] (-) TimerEvent: {}
+[3.834441] (-) TimerEvent: {}
+[3.888242] (ml_model) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build', '--no-deps', 'install_data'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'bhavesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bhavesh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1598', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bhavesh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bhavesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1981b0ae_0fcc_4020_9c6a_a7dcf13df9e2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LJD6H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.3944', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.934654] (-) TimerEvent: {}
+[4.035429] (-) TimerEvent: {}
+[4.136204] (-) TimerEvent: {}
+[4.236922] (-) TimerEvent: {}
+[4.337767] (-) TimerEvent: {}
+[4.438423] (-) TimerEvent: {}
+[4.539114] (-) TimerEvent: {}
+[4.639766] (-) TimerEvent: {}
+[4.740572] (-) TimerEvent: {}
+[4.841377] (-) TimerEvent: {}
+[4.942159] (-) TimerEvent: {}
+[5.042846] (-) TimerEvent: {}
+[5.139470] (ml_model) StdoutLine: {'line': b'running develop\n'}
+[5.140768] (ml_model) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.141234] (ml_model) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.143030] (-) TimerEvent: {}
+[5.146157] (ml_model) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.146820] (ml_model) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.243260] (-) TimerEvent: {}
+[5.343913] (-) TimerEvent: {}
+[5.444653] (-) TimerEvent: {}
+[5.545347] (-) TimerEvent: {}
+[5.646011] (-) TimerEvent: {}
+[5.746670] (-) TimerEvent: {}
+[5.847449] (-) TimerEvent: {}
+[5.948135] (-) TimerEvent: {}
+[6.048827] (-) TimerEvent: {}
+[6.077748] (ml_model) StdoutLine: {'line': b'running egg_info\n'}
+[6.079008] (ml_model) StdoutLine: {'line': b'writing ml_model.egg-info/PKG-INFO\n'}
+[6.080198] (ml_model) StdoutLine: {'line': b'writing dependency_links to ml_model.egg-info/dependency_links.txt\n'}
+[6.081201] (ml_model) StdoutLine: {'line': b'writing entry points to ml_model.egg-info/entry_points.txt\n'}
+[6.082093] (ml_model) StdoutLine: {'line': b'writing requirements to ml_model.egg-info/requires.txt\n'}
+[6.083068] (ml_model) StdoutLine: {'line': b'writing top-level names to ml_model.egg-info/top_level.txt\n'}
+[6.092348] (ml_model) StdoutLine: {'line': b"reading manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[6.095982] (ml_model) StdoutLine: {'line': b"writing manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[6.101146] (ml_model) StdoutLine: {'line': b'running build_ext\n'}
+[6.102263] (ml_model) StdoutLine: {'line': b'Creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages/ml-model.egg-link (link to .)\n'}
+[6.105889] (ml_model) StdoutLine: {'line': b'Installing model script to /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/ml_model\n'}
+[6.107055] (ml_model) StdoutLine: {'line': b'\n'}
+[6.107869] (ml_model) StdoutLine: {'line': b'Installed /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model\n'}
+[6.108438] (ml_model) StdoutLine: {'line': b'running install_data\n'}
+[6.149034] (-) TimerEvent: {}
+[6.205001] (ml_model) CommandEnded: {'returncode': 0}
+[6.250032] (-) TimerEvent: {}
+[6.351877] (-) TimerEvent: {}
+[6.452693] (-) TimerEvent: {}
+[6.553910] (-) TimerEvent: {}
+[6.585245] (ml_model) JobEnded: {'identifier': 'ml_model', 'rc': 0}
+[6.654152] (-) TimerEvent: {}
+[6.754769] (-) TimerEvent: {}
+[6.855393] (-) TimerEvent: {}
+[6.955982] (-) TimerEvent: {}
+[7.056601] (-) TimerEvent: {}
+[7.157167] (-) TimerEvent: {}
+[7.257991] (-) TimerEvent: {}
+[7.358785] (-) TimerEvent: {}
+[7.459499] (-) TimerEvent: {}
+[7.560163] (-) TimerEvent: {}
+[7.660834] (-) TimerEvent: {}
+[7.761503] (-) TimerEvent: {}
+[7.862199] (-) TimerEvent: {}
+[7.962868] (-) TimerEvent: {}
+[8.063509] (-) TimerEvent: {}
+[8.164173] (-) TimerEvent: {}
+[8.264844] (-) TimerEvent: {}
+[8.365511] (-) TimerEvent: {}
+[8.466185] (-) TimerEvent: {}
+[8.566907] (-) TimerEvent: {}
+[8.667608] (-) TimerEvent: {}
+[8.768292] (-) TimerEvent: {}
+[8.868957] (-) TimerEvent: {}
+[8.969629] (-) TimerEvent: {}
+[9.070295] (-) TimerEvent: {}
+[9.170966] (-) TimerEvent: {}
+[9.271664] (-) TimerEvent: {}
+[9.372341] (-) TimerEvent: {}
+[9.473010] (-) TimerEvent: {}
+[9.573678] (-) TimerEvent: {}
+[9.674351] (-) TimerEvent: {}
+[9.775055] (-) TimerEvent: {}
+[9.876100] (-) TimerEvent: {}
+[9.977012] (-) TimerEvent: {}
+[10.077811] (-) TimerEvent: {}
+[10.178535] (-) TimerEvent: {}
+[10.279300] (-) TimerEvent: {}
+[10.380117] (-) TimerEvent: {}
+[10.480964] (-) TimerEvent: {}
+[10.581631] (-) TimerEvent: {}
+[10.682292] (-) TimerEvent: {}
+[10.782924] (-) TimerEvent: {}
+[10.883673] (-) TimerEvent: {}
+[10.984337] (-) TimerEvent: {}
+[11.085009] (-) TimerEvent: {}
+[11.185682] (-) TimerEvent: {}
+[11.286353] (-) TimerEvent: {}
+[11.387050] (-) TimerEvent: {}
+[11.487734] (-) TimerEvent: {}
+[11.588406] (-) TimerEvent: {}
+[11.688999] (-) TimerEvent: {}
+[11.789540] (-) TimerEvent: {}
+[11.890077] (-) TimerEvent: {}
+[11.990613] (-) TimerEvent: {}
+[12.091166] (-) TimerEvent: {}
+[12.191742] (-) TimerEvent: {}
+[12.292329] (-) TimerEvent: {}
+[12.392949] (-) TimerEvent: {}
+[12.493561] (-) TimerEvent: {}
+[12.594175] (-) TimerEvent: {}
+[12.694776] (-) TimerEvent: {}
+[12.795497] (-) TimerEvent: {}
+[12.896187] (-) TimerEvent: {}
+[12.996850] (-) TimerEvent: {}
+[13.097492] (-) TimerEvent: {}
+[13.198175] (-) TimerEvent: {}
+[13.298869] (-) TimerEvent: {}
+[13.399592] (-) TimerEvent: {}
+[13.500287] (-) TimerEvent: {}
+[13.601096] (-) TimerEvent: {}
+[13.701780] (-) TimerEvent: {}
+[13.712750] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KScanSubscriber::ScanSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.713317] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:8:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >::Subscription()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.713634] (tinyml_model) StderrLine: {'line': b'    8 |   ScanSubscriber() : Node("scan_subscriber"\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[13.713903] (tinyml_model) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.714516] (tinyml_model) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[13.714844] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.715390] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.715677] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.715938] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.716196] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.716453] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.716708] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.716962] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:1\x1b[m\x1b[K:\n'}
+[13.717256] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; ROSMessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.717564] (tinyml_model) StderrLine: {'line': b'  130 |   \x1b[01;36m\x1b[KSubscription\x1b[m\x1b[K(\n'}
+[13.717819] (tinyml_model) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.718069] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 0 provided\n'}
+[13.725880] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:8:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::Publisher()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.726782] (tinyml_model) StderrLine: {'line': b'    8 |   ScanSubscriber() : Node("scan_subscriber"\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[13.727090] (tinyml_model) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.727422] (tinyml_model) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[13.727727] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[13.728063] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[13.728362] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.728671] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.728945] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.729206] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.729472] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.729819] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.730294] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.730762] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:1\x1b[m\x1b[K:\n'}
+[13.731300] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<MessageT, AllocatorT>::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.731777] (tinyml_model) StderrLine: {'line': b'  125 |   \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K(\n'}
+[13.732061] (tinyml_model) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.732319] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:125:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[13.732612] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::Publisher(const rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.732879] (tinyml_model) StderrLine: {'line': b'   77 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[13.733130] (tinyml_model) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.733381] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[13.768504] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:9:157:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[13.769767] (tinyml_model) StderrLine: {'line': b'    9 | std::bind(&ScanSubscriber::scanCallback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.770283] (tinyml_model) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.770758] (tinyml_model) StderrLine: {'line': b'\n'}
+[13.771260] (tinyml_model) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:34\x1b[m\x1b[K,\n'}
+[13.771745] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[13.772211] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.772671] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.773203] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.773991] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:1\x1b[m\x1b[K:\n'}
+[13.774379] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; ROSMessageT = sensor_msgs::msg::LaserScan_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[13.774779] (tinyml_model) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[KRCLCPP_DISABLE_COPY\x1b[m\x1b[K(Subscription)\n'}
+[13.775076] (tinyml_model) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.775412] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.775720] (tinyml_model) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[KRCLCPP_DISABLE_COPY\x1b[m\x1b[K(Subscription)\n'}
+[13.776005] (tinyml_model) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.784617] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:10:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[13.785728] (tinyml_model) StderrLine: {'line': b'   10 | er_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[13.786119] (tinyml_model) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.786430] (tinyml_model) StderrLine: {'line': b'\n'}
+[13.786722] (tinyml_model) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[13.787017] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[13.787363] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[13.787656] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.787935] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.788264] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.788544] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.788819] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.789100] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.789376] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.789652] (tinyml_model) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:1\x1b[m\x1b[K:\n'}
+[13.789928] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >& rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >::operator=(const rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[13.790224] (tinyml_model) StderrLine: {'line': b'   77 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[13.790498] (tinyml_model) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.790804] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:77:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.791103] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ScanSubscriber::scanCallback(sensor_msgs::msg::LaserScan)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.791428] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst _ranges_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.791718] (tinyml_model) StderrLine: {'line': b'   17 |     int class_index = classifier.predict(\x1b[01;31m\x1b[Kscan_msg.ranges\x1b[m\x1b[K);\n'}
+[13.792002] (tinyml_model) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[13.792313] (tinyml_model) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[13.792586] (tinyml_model) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[Kconst _ranges_type {aka const std::vector<float>}\x1b[m\x1b[K\n'}
+[13.801973] (-) TimerEvent: {}
+[13.803645] (tinyml_model) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:4\x1b[m\x1b[K:\n'}
+[13.804445] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/bag_files/model.h:12:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kint Eloquent::ML::Port::RandomForest::predict(float*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.804868] (tinyml_model) StderrLine: {'line': b'   12 |                     int predict(\x1b[01;36m\x1b[Kfloat *x\x1b[m\x1b[K) {\n'}
+[13.805178] (tinyml_model) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~~~~~~~^\x1b[m\x1b[K\n'}
+[13.805466] (tinyml_model) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:32:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.805766] (tinyml_model) StderrLine: {'line': b'   32 |     command_publisher_\x1b[01;31m\x1b[K->\x1b[m\x1b[Kpublish(cmd_vel);\n'}
+[13.806051] (tinyml_model) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[13.902206] (-) TimerEvent: {}
+[14.002886] (-) TimerEvent: {}
+[14.103587] (-) TimerEvent: {}
+[14.204260] (-) TimerEvent: {}
+[14.304926] (-) TimerEvent: {}
+[14.405598] (-) TimerEvent: {}
+[14.506277] (-) TimerEvent: {}
+[14.606970] (-) TimerEvent: {}
+[14.707692] (-) TimerEvent: {}
+[14.808452] (-) TimerEvent: {}
+[14.909266] (-) TimerEvent: {}
+[15.010054] (-) TimerEvent: {}
+[15.110799] (-) TimerEvent: {}
+[15.211534] (-) TimerEvent: {}
+[15.312280] (-) TimerEvent: {}
+[15.413025] (-) TimerEvent: {}
+[15.513806] (-) TimerEvent: {}
+[15.614568] (-) TimerEvent: {}
+[15.715345] (-) TimerEvent: {}
+[15.816114] (-) TimerEvent: {}
+[15.916885] (-) TimerEvent: {}
+[16.017655] (-) TimerEvent: {}
+[16.118438] (-) TimerEvent: {}
+[16.219223] (-) TimerEvent: {}
+[16.319999] (-) TimerEvent: {}
+[16.420770] (-) TimerEvent: {}
+[16.521521] (-) TimerEvent: {}
+[16.622296] (-) TimerEvent: {}
+[16.723071] (-) TimerEvent: {}
+[16.823875] (-) TimerEvent: {}
+[16.924651] (-) TimerEvent: {}
+[17.025427] (-) TimerEvent: {}
+[17.126203] (-) TimerEvent: {}
+[17.226988] (-) TimerEvent: {}
+[17.327797] (-) TimerEvent: {}
+[17.428607] (-) TimerEvent: {}
+[17.529469] (-) TimerEvent: {}
+[17.630257] (-) TimerEvent: {}
+[17.731046] (-) TimerEvent: {}
+[17.831845] (-) TimerEvent: {}
+[17.932630] (-) TimerEvent: {}
+[18.033460] (-) TimerEvent: {}
+[18.134353] (-) TimerEvent: {}
+[18.235280] (-) TimerEvent: {}
+[18.336178] (-) TimerEvent: {}
+[18.437072] (-) TimerEvent: {}
+[18.538036] (-) TimerEvent: {}
+[18.638915] (-) TimerEvent: {}
+[18.739843] (-) TimerEvent: {}
+[18.840807] (-) TimerEvent: {}
+[18.941847] (-) TimerEvent: {}
+[19.042944] (-) TimerEvent: {}
+[19.144025] (-) TimerEvent: {}
+[19.245028] (-) TimerEvent: {}
+[19.345916] (-) TimerEvent: {}
+[19.446741] (-) TimerEvent: {}
+[19.547830] (-) TimerEvent: {}
+[19.648793] (-) TimerEvent: {}
+[19.749540] (-) TimerEvent: {}
+[19.850282] (-) TimerEvent: {}
+[19.951040] (-) TimerEvent: {}
+[20.051840] (-) TimerEvent: {}
+[20.152603] (-) TimerEvent: {}
+[20.253365] (-) TimerEvent: {}
+[20.354129] (-) TimerEvent: {}
+[20.454877] (-) TimerEvent: {}
+[20.555681] (-) TimerEvent: {}
+[20.656430] (-) TimerEvent: {}
+[20.757193] (-) TimerEvent: {}
+[20.857946] (-) TimerEvent: {}
+[20.958698] (-) TimerEvent: {}
+[21.059489] (-) TimerEvent: {}
+[21.160257] (-) TimerEvent: {}
+[21.261029] (-) TimerEvent: {}
+[21.361784] (-) TimerEvent: {}
+[21.462531] (-) TimerEvent: {}
+[21.563289] (-) TimerEvent: {}
+[21.664038] (-) TimerEvent: {}
+[21.764795] (-) TimerEvent: {}
+[21.865551] (-) TimerEvent: {}
+[21.966307] (-) TimerEvent: {}
+[22.067058] (-) TimerEvent: {}
+[22.167862] (-) TimerEvent: {}
+[22.268620] (-) TimerEvent: {}
+[22.369422] (-) TimerEvent: {}
+[22.470320] (-) TimerEvent: {}
+[22.571076] (-) TimerEvent: {}
+[22.671857] (-) TimerEvent: {}
+[22.772620] (-) TimerEvent: {}
+[22.873399] (-) TimerEvent: {}
+[22.974152] (-) TimerEvent: {}
+[23.075008] (-) TimerEvent: {}
+[23.175722] (-) TimerEvent: {}
+[23.180254] (tinyml_model) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rfModel.dir/build.make:76: CMakeFiles/rfModel.dir/src/rfModel.cpp.o] Error 1\n'}
+[23.181171] (tinyml_model) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rfModel.dir/all] Error 2\n'}
+[23.182249] (tinyml_model) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.189928] (tinyml_model) CommandEnded: {'returncode': 2}
+[23.275934] (-) TimerEvent: {}
+[23.376689] (-) TimerEvent: {}
+[23.477428] (-) TimerEvent: {}
+[23.581660] (-) TimerEvent: {}
+[23.591462] (tinyml_model) JobEnded: {'identifier': 'tinyml_model', 'rc': 2}
+[23.603042] (-) EventReactorShutdown: {}

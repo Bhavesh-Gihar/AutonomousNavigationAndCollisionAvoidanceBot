@@ -1,0 +1,17 @@
+[1.786s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8
+[1.957s] [35m[1mConsolidate compiler generated dependencies of target rfModel[0m
+[2.052s] [ 50%] [32mBuilding CXX object CMakeFiles/rfModel.dir/src/rfModel.cpp.o[0m
+[14.117s] [01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:[m[K In member function ‘[01m[Kvoid ScanSubscriber::scanCallback(sensor_msgs::msg::LaserScan)[m[K’:
+[14.117s] [01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:17:51:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst _ranges_type[m[K’ {aka ‘[01m[Kconst std::vector<float>[m[K’} to ‘[01m[Kfloat*[m[K’
+[14.118s]    17 |     int class_index = classifier.predict([01;31m[Kscan_msg.ranges[m[K);
+[14.118s]       |                                          [01;31m[K~~~~~~~~~^~~~~~[m[K
+[14.118s]       |                                                   [01;31m[K|[m[K
+[14.119s]       |                                                   [01;31m[Kconst _ranges_type {aka const std::vector<float>}[m[K
+[14.136s] In file included from [01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model/src/rfModel.cpp:4[m[K:
+[14.137s] [01m[K/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/bag_files/model.h:12:40:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kint Eloquent::ML::Port::RandomForest::predict(float*)[m[K’
+[14.137s]    12 |                     int predict([01;36m[Kfloat *x[m[K) {
+[14.138s]       |                                 [01;36m[K~~~~~~~^[m[K
+[24.619s] gmake[2]: *** [CMakeFiles/rfModel.dir/build.make:76: CMakeFiles/rfModel.dir/src/rfModel.cpp.o] Error 1
+[24.620s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rfModel.dir/all] Error 2
+[24.621s] gmake: *** [Makefile:146: all] Error 2
+[24.630s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8

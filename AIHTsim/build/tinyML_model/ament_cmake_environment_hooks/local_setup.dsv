@@ -1,0 +1,2 @@
+source;share/tinyML_model/environment/ament_prefix_path.sh
+source;share/tinyML_model/environment/path.sh

@@ -1,0 +1,21 @@
+[4.502s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model': PYTHONPATH=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build --no-deps install_data
+[5.861s] running develop
+[5.862s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.863s]   warnings.warn(
+[5.870s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.871s]   warnings.warn(
+[6.834s] running egg_info
+[6.834s] writing ml_model.egg-info/PKG-INFO
+[6.835s] writing dependency_links to ml_model.egg-info/dependency_links.txt
+[6.836s] writing entry points to ml_model.egg-info/entry_points.txt
+[6.836s] writing requirements to ml_model.egg-info/requires.txt
+[6.837s] writing top-level names to ml_model.egg-info/top_level.txt
+[6.844s] reading manifest file 'ml_model.egg-info/SOURCES.txt'
+[6.846s] writing manifest file 'ml_model.egg-info/SOURCES.txt'
+[6.852s] running build_ext
+[6.853s] Creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages/ml-model.egg-link (link to .)
+[6.857s] Installing model script to /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/ml_model
+[6.858s] 
+[6.859s] Installed /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model
+[6.859s] running install_data
+[6.974s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model' returned '0': PYTHONPATH=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build --no-deps install_data

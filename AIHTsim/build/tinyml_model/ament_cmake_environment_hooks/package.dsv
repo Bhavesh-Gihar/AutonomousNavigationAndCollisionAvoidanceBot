@@ -1,0 +1,4 @@
+source;share/tinyml_model/local_setup.bash
+source;share/tinyml_model/local_setup.dsv
+source;share/tinyml_model/local_setup.sh
+source;share/tinyml_model/local_setup.zsh

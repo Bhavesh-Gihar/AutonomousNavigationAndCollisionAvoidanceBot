@@ -1,0 +1,19 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ml_model.egg-info/PKG-INFO
+writing dependency_links to ml_model.egg-info/dependency_links.txt
+writing entry points to ml_model.egg-info/entry_points.txt
+writing requirements to ml_model.egg-info/requires.txt
+writing top-level names to ml_model.egg-info/top_level.txt
+reading manifest file 'ml_model.egg-info/SOURCES.txt'
+writing manifest file 'ml_model.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages/ml-model.egg-link (link to .)
+Installing model script to /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/ml_model
+
+Installed /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model
+running install_data
