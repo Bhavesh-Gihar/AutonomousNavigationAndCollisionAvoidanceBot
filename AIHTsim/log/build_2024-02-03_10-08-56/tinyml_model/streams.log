@@ -1,0 +1,62 @@
+[1.947s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model
+[2.207s] -- The C compiler identification is GNU 11.4.0
+[2.479s] -- The CXX compiler identification is GNU 11.4.0
+[2.526s] -- Detecting C compiler ABI info
+[2.845s] -- Detecting C compiler ABI info - done
+[2.904s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.905s] -- Detecting C compile features
+[2.906s] -- Detecting C compile features - done
+[2.920s] -- Detecting CXX compiler ABI info
+[3.306s] -- Detecting CXX compiler ABI info - done
+[3.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.347s] -- Detecting CXX compile features
+[3.349s] -- Detecting CXX compile features - done
+[3.361s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.183s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.614s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[4.891s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.922s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.970s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.602s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.617s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.106s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.248s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.480s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.534s] -- Looking for pthread.h
+[6.901s] -- Looking for pthread.h - found
+[6.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.257s] -- Found Threads: TRUE  
+[8.085s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.045s] -- Configuring done
+[9.090s] -- Generating done
+[9.097s] -- Build files have been written to: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model
+[9.135s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model
+[9.141s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8
+[9.364s] [ 50%] [32mBuilding CXX object CMakeFiles/rfModel.dir/src/rfModel.cpp.o[0m
+[75.602s] [100%] [32m[1mLinking CXX executable rfModel[0m
+[77.387s] [100%] Built target rfModel
+[77.434s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model -- -j8 -l8
+[77.547s] Invoking command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model
+[77.578s] -- Install configuration: ""
+[77.580s] -- Execute custom install script
+[77.582s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/lib/tinyml_model/rfModel
+[77.622s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/ament_index/resource_index/package_run_dependencies/tinyml_model
+[77.659s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/ament_index/resource_index/parent_prefix_path/tinyml_model
+[77.696s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/ament_prefix_path.sh
+[77.735s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/ament_prefix_path.dsv
+[77.772s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/path.sh
+[77.811s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/path.dsv
+[77.849s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.bash
+[77.886s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.sh
+[77.923s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.zsh
+[77.960s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.dsv
+[77.998s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.dsv
+[78.035s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/ament_index/resource_index/packages/tinyml_model
+[78.073s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/cmake/tinyml_modelConfig.cmake
+[78.112s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/cmake/tinyml_modelConfig-version.cmake
+[78.152s] -- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.xml
+[78.197s] Invoked command in '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model

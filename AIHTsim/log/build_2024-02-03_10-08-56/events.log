@@ -1,0 +1,968 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (aiht_bot) JobQueued: {'identifier': 'aiht_bot', 'dependencies': OrderedDict()}
+[0.000725] (ml_model) JobQueued: {'identifier': 'ml_model', 'dependencies': OrderedDict()}
+[0.000793] (tinyml_model) JobQueued: {'identifier': 'tinyml_model', 'dependencies': OrderedDict()}
+[0.000851] (aiht_bot) JobStarted: {'identifier': 'aiht_bot'}
+[0.098135] (-) TimerEvent: {}
+[0.194409] (ml_model) JobStarted: {'identifier': 'ml_model'}
+[0.198400] (-) TimerEvent: {}
+[0.299304] (-) TimerEvent: {}
+[0.400289] (-) TimerEvent: {}
+[0.469978] (tinyml_model) JobStarted: {'identifier': 'tinyml_model'}
+[0.500803] (-) TimerEvent: {}
+[0.601461] (-) TimerEvent: {}
+[0.693795] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'cmake'}
+[0.695333] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/AIHT', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.5598'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.705220] (-) TimerEvent: {}
+[0.806035] (-) TimerEvent: {}
+[0.906810] (-) TimerEvent: {}
+[1.007461] (-) TimerEvent: {}
+[1.108124] (-) TimerEvent: {}
+[1.208915] (-) TimerEvent: {}
+[1.309597] (-) TimerEvent: {}
+[1.410308] (-) TimerEvent: {}
+[1.511084] (-) TimerEvent: {}
+[1.612062] (-) TimerEvent: {}
+[1.713125] (-) TimerEvent: {}
+[1.813889] (-) TimerEvent: {}
+[1.914741] (-) TimerEvent: {}
+[2.015742] (-) TimerEvent: {}
+[2.117181] (-) TimerEvent: {}
+[2.218015] (-) TimerEvent: {}
+[2.319767] (-) TimerEvent: {}
+[2.394483] (aiht_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.397633] (aiht_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.398242] (aiht_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.398749] (aiht_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.399377] (aiht_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.399836] (aiht_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.400459] (aiht_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.400853] (aiht_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.401184] (aiht_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.403289] (aiht_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.403715] (aiht_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.404336] (aiht_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.404790] (aiht_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.406442] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'cmake'}
+[2.409119] (tinyml_model) Command: {'cmd': ['/usr/bin/cmake', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/src/tinyml_model', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.5598'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.419994] (-) TimerEvent: {}
+[2.520981] (-) TimerEvent: {}
+[2.621942] (-) TimerEvent: {}
+[2.676919] (tinyml_model) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.722139] (-) TimerEvent: {}
+[2.767489] (aiht_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.822378] (-) TimerEvent: {}
+[2.923278] (-) TimerEvent: {}
+[2.948594] (tinyml_model) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.995129] (tinyml_model) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.023491] (-) TimerEvent: {}
+[3.124191] (aiht_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.124745] (-) TimerEvent: {}
+[3.225405] (-) TimerEvent: {}
+[3.265977] (aiht_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.314241] (tinyml_model) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.325567] (-) TimerEvent: {}
+[3.372975] (tinyml_model) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.374076] (tinyml_model) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.375798] (tinyml_model) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.389150] (tinyml_model) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.425860] (-) TimerEvent: {}
+[3.526854] (-) TimerEvent: {}
+[3.627606] (-) TimerEvent: {}
+[3.697303] (aiht_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.719500] (aiht_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.723222] (aiht_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.726208] (aiht_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.727774] (-) TimerEvent: {}
+[3.736068] (aiht_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.743453] (aiht_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.760690] (aiht_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.765374] (aiht_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot\n'}
+[3.774999] (tinyml_model) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.786693] (aiht_bot) CommandEnded: {'returncode': 0}
+[3.797779] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'build'}
+[3.798225] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', '--', '-j8', '-l8'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.5598'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.815151] (tinyml_model) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.816376] (tinyml_model) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.818404] (tinyml_model) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.827969] (-) TimerEvent: {}
+[3.830618] (tinyml_model) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.928264] (-) TimerEvent: {}
+[3.986300] (aiht_bot) CommandEnded: {'returncode': 0}
+[4.028497] (-) TimerEvent: {}
+[4.084662] (aiht_bot) JobProgress: {'identifier': 'aiht_bot', 'progress': 'install'}
+[4.123390] (aiht_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.5598'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/aiht_bot'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.129885] (-) TimerEvent: {}
+[4.162247] (aiht_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.164851] (aiht_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.167691] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_robot.yaml\n'}
+[4.206236] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/ball_tracker_params_sim.yaml\n'}
+[4.230114] (-) TimerEvent: {}
+[4.244254] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/drive_bot.rviz\n'}
+[4.282678] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/empty.yaml\n'}
+[4.321147] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[4.330332] (-) TimerEvent: {}
+[4.360321] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/gazebo_params.yaml\n'}
+[4.395718] (ml_model) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/build', '--no-deps', 'install_data'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'bhavesh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/bhavesh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1598', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'bhavesh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bhavesh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LJD6H2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.5598', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model/prefix_override:/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.403847] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/joystick.yaml\n'}
+[4.430549] (-) TimerEvent: {}
+[4.438422] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/main.rviz\n'}
+[4.478032] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/map.rviz\n'}
+[4.519718] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/mapper_params_online_async.yaml\n'}
+[4.530772] (-) TimerEvent: {}
+[4.557453] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/my_controllers.yaml\n'}
+[4.596558] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/nav2_params.yaml\n'}
+[4.630962] (-) TimerEvent: {}
+[4.633964] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/twist_mux.yaml\n'}
+[4.652547] (tinyml_model) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.672092] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/config/view_bot.rviz\n'}
+[4.711761] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/gazebo_control.xacro\n'}
+[4.731167] (-) TimerEvent: {}
+[4.753813] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/inertial_macros.xacro\n'}
+[4.803562] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/lidar.xacro\n'}
+[4.831372] (-) TimerEvent: {}
+[4.846544] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot.urdf.xacro\n'}
+[4.887301] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/robot_core.xacro\n'}
+[4.931334] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/description/ros2_control.xacro\n'}
+[4.931908] (-) TimerEvent: {}
+[4.944394] (tinyml_model) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.973803] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/joystick.launch.py\n'}
+[5.012998] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_robot.launch.py\n'}
+[5.032150] (-) TimerEvent: {}
+[5.062251] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/launch_sim.launch.py\n'}
+[5.083925] (tinyml_model) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.117947] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rplidar.launch.py\n'}
+[5.132384] (-) TimerEvent: {}
+[5.165053] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/launch/rsp.launch.py\n'}
+[5.223624] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/worlds/empty.world\n'}
+[5.232597] (-) TimerEvent: {}
+[5.285731] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/package_run_dependencies/aiht_bot\n'}
+[5.332817] (-) TimerEvent: {}
+[5.341639] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/parent_prefix_path/aiht_bot\n'}
+[5.360419] (tinyml_model) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.391236] (tinyml_model) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.396751] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.sh\n'}
+[5.433034] (-) TimerEvent: {}
+[5.439876] (tinyml_model) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.449413] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/ament_prefix_path.dsv\n'}
+[5.492221] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.sh\n'}
+[5.521118] (tinyml_model) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.533264] (-) TimerEvent: {}
+[5.542772] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/environment/path.dsv\n'}
+[5.595324] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.bash\n'}
+[5.633489] (-) TimerEvent: {}
+[5.641399] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.sh\n'}
+[5.670047] (tinyml_model) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.692781] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.zsh\n'}
+[5.733695] (-) TimerEvent: {}
+[5.740749] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/local_setup.dsv\n'}
+[5.796557] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.dsv\n'}
+[5.833904] (-) TimerEvent: {}
+[5.850787] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/ament_index/resource_index/packages/aiht_bot\n'}
+[5.897237] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig.cmake\n'}
+[5.934120] (-) TimerEvent: {}
+[5.937829] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/cmake/aiht_botConfig-version.cmake\n'}
+[5.981822] (aiht_bot) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/aiht_bot/share/aiht_bot/package.xml\n'}
+[6.030988] (aiht_bot) CommandEnded: {'returncode': 0}
+[6.034435] (-) TimerEvent: {}
+[6.070632] (tinyml_model) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.084952] (tinyml_model) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.096290] (ml_model) StdoutLine: {'line': b'running develop\n'}
+[6.099969] (ml_model) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.101625] (ml_model) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.104501] (ml_model) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.105852] (ml_model) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.138200] (-) TimerEvent: {}
+[6.239399] (-) TimerEvent: {}
+[6.340753] (-) TimerEvent: {}
+[6.441674] (-) TimerEvent: {}
+[6.544399] (-) TimerEvent: {}
+[6.575646] (tinyml_model) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.645129] (-) TimerEvent: {}
+[6.716869] (tinyml_model) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.745704] (-) TimerEvent: {}
+[6.846498] (-) TimerEvent: {}
+[6.927302] (aiht_bot) JobEnded: {'identifier': 'aiht_bot', 'rc': 0}
+[6.946674] (-) TimerEvent: {}
+[6.949980] (tinyml_model) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.003203] (tinyml_model) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.046914] (-) TimerEvent: {}
+[7.147826] (-) TimerEvent: {}
+[7.167315] (ml_model) StdoutLine: {'line': b'running egg_info\n'}
+[7.168097] (ml_model) StdoutLine: {'line': b'creating ml_model.egg-info\n'}
+[7.168764] (ml_model) StdoutLine: {'line': b'writing ml_model.egg-info/PKG-INFO\n'}
+[7.169752] (ml_model) StdoutLine: {'line': b'writing dependency_links to ml_model.egg-info/dependency_links.txt\n'}
+[7.170426] (ml_model) StdoutLine: {'line': b'writing entry points to ml_model.egg-info/entry_points.txt\n'}
+[7.171161] (ml_model) StdoutLine: {'line': b'writing requirements to ml_model.egg-info/requires.txt\n'}
+[7.171653] (ml_model) StdoutLine: {'line': b'writing top-level names to ml_model.egg-info/top_level.txt\n'}
+[7.172290] (ml_model) StdoutLine: {'line': b"writing manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[7.180506] (ml_model) StdoutLine: {'line': b"reading manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[7.184259] (ml_model) StdoutLine: {'line': b"writing manifest file 'ml_model.egg-info/SOURCES.txt'\n"}
+[7.192749] (ml_model) StdoutLine: {'line': b'running build_ext\n'}
+[7.194229] (ml_model) StdoutLine: {'line': b'Creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/python3.10/site-packages/ml-model.egg-link (link to .)\n'}
+[7.199591] (ml_model) StdoutLine: {'line': b'Installing model script to /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/lib/ml_model\n'}
+[7.201010] (ml_model) StdoutLine: {'line': b'\n'}
+[7.201532] (ml_model) StdoutLine: {'line': b'Installed /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/ml_model\n'}
+[7.202244] (ml_model) StdoutLine: {'line': b'running install_data\n'}
+[7.203040] (ml_model) StdoutLine: {'line': b'creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index\n'}
+[7.203896] (ml_model) StdoutLine: {'line': b'creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index/resource_index\n'}
+[7.204751] (ml_model) StdoutLine: {'line': b'creating /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index/resource_index/packages\n'}
+[7.205493] (ml_model) StdoutLine: {'line': b'copying resource/ml_model -> /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ament_index/resource_index/packages\n'}
+[7.206152] (ml_model) StdoutLine: {'line': b'copying package.xml -> /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/ml_model/share/ml_model\n'}
+[7.248112] (-) TimerEvent: {}
+[7.348215] (ml_model) CommandEnded: {'returncode': 0}
+[7.350862] (-) TimerEvent: {}
+[7.369899] (tinyml_model) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.373948] (tinyml_model) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.455892] (-) TimerEvent: {}
+[7.557500] (-) TimerEvent: {}
+[7.659180] (-) TimerEvent: {}
+[7.718557] (tinyml_model) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.726090] (tinyml_model) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.759452] (-) TimerEvent: {}
+[7.786100] (ml_model) JobEnded: {'identifier': 'ml_model', 'rc': 0}
+[7.859702] (-) TimerEvent: {}
+[7.960368] (-) TimerEvent: {}
+[8.061097] (-) TimerEvent: {}
+[8.161828] (-) TimerEvent: {}
+[8.262573] (-) TimerEvent: {}
+[8.363305] (-) TimerEvent: {}
+[8.464036] (-) TimerEvent: {}
+[8.554375] (tinyml_model) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.564233] (-) TimerEvent: {}
+[8.664897] (-) TimerEvent: {}
+[8.765627] (-) TimerEvent: {}
+[8.866384] (-) TimerEvent: {}
+[8.967125] (-) TimerEvent: {}
+[9.067860] (-) TimerEvent: {}
+[9.168594] (-) TimerEvent: {}
+[9.269319] (-) TimerEvent: {}
+[9.370050] (-) TimerEvent: {}
+[9.470741] (-) TimerEvent: {}
+[9.514636] (tinyml_model) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.559696] (tinyml_model) StdoutLine: {'line': b'-- Generating done\n'}
+[9.566737] (tinyml_model) StdoutLine: {'line': b'-- Build files have been written to: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model\n'}
+[9.570906] (-) TimerEvent: {}
+[9.603795] (tinyml_model) CommandEnded: {'returncode': 0}
+[9.606180] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'build'}
+[9.608105] (tinyml_model) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', '--', '-j8', '-l8'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.5598'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.671170] (-) TimerEvent: {}
+[9.771901] (-) TimerEvent: {}
+[9.833316] (tinyml_model) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rfModel.dir/src/rfModel.cpp.o\x1b[0m\n'}
+[9.872149] (-) TimerEvent: {}
+[9.973168] (-) TimerEvent: {}
+[10.074186] (-) TimerEvent: {}
+[10.175179] (-) TimerEvent: {}
+[10.276120] (-) TimerEvent: {}
+[10.376957] (-) TimerEvent: {}
+[10.477828] (-) TimerEvent: {}
+[10.578723] (-) TimerEvent: {}
+[10.679685] (-) TimerEvent: {}
+[10.780524] (-) TimerEvent: {}
+[10.881370] (-) TimerEvent: {}
+[10.982226] (-) TimerEvent: {}
+[11.083228] (-) TimerEvent: {}
+[11.184058] (-) TimerEvent: {}
+[11.284880] (-) TimerEvent: {}
+[11.385743] (-) TimerEvent: {}
+[11.486724] (-) TimerEvent: {}
+[11.587532] (-) TimerEvent: {}
+[11.688365] (-) TimerEvent: {}
+[11.789255] (-) TimerEvent: {}
+[11.890000] (-) TimerEvent: {}
+[11.990722] (-) TimerEvent: {}
+[12.091484] (-) TimerEvent: {}
+[12.192195] (-) TimerEvent: {}
+[12.292937] (-) TimerEvent: {}
+[12.393655] (-) TimerEvent: {}
+[12.494409] (-) TimerEvent: {}
+[12.595137] (-) TimerEvent: {}
+[12.695856] (-) TimerEvent: {}
+[12.796572] (-) TimerEvent: {}
+[12.897291] (-) TimerEvent: {}
+[12.997978] (-) TimerEvent: {}
+[13.098810] (-) TimerEvent: {}
+[13.199675] (-) TimerEvent: {}
+[13.300379] (-) TimerEvent: {}
+[13.401106] (-) TimerEvent: {}
+[13.501831] (-) TimerEvent: {}
+[13.602555] (-) TimerEvent: {}
+[13.703269] (-) TimerEvent: {}
+[13.803998] (-) TimerEvent: {}
+[13.904714] (-) TimerEvent: {}
+[14.005456] (-) TimerEvent: {}
+[14.106180] (-) TimerEvent: {}
+[14.206940] (-) TimerEvent: {}
+[14.307700] (-) TimerEvent: {}
+[14.408433] (-) TimerEvent: {}
+[14.509148] (-) TimerEvent: {}
+[14.609872] (-) TimerEvent: {}
+[14.710641] (-) TimerEvent: {}
+[14.811364] (-) TimerEvent: {}
+[14.912079] (-) TimerEvent: {}
+[15.012787] (-) TimerEvent: {}
+[15.113501] (-) TimerEvent: {}
+[15.214223] (-) TimerEvent: {}
+[15.314983] (-) TimerEvent: {}
+[15.415694] (-) TimerEvent: {}
+[15.516413] (-) TimerEvent: {}
+[15.617125] (-) TimerEvent: {}
+[15.717839] (-) TimerEvent: {}
+[15.818556] (-) TimerEvent: {}
+[15.919276] (-) TimerEvent: {}
+[16.020213] (-) TimerEvent: {}
+[16.121143] (-) TimerEvent: {}
+[16.222083] (-) TimerEvent: {}
+[16.323121] (-) TimerEvent: {}
+[16.424019] (-) TimerEvent: {}
+[16.524917] (-) TimerEvent: {}
+[16.625818] (-) TimerEvent: {}
+[16.726756] (-) TimerEvent: {}
+[16.827649] (-) TimerEvent: {}
+[16.928560] (-) TimerEvent: {}
+[17.029476] (-) TimerEvent: {}
+[17.130412] (-) TimerEvent: {}
+[17.231297] (-) TimerEvent: {}
+[17.332192] (-) TimerEvent: {}
+[17.433136] (-) TimerEvent: {}
+[17.534011] (-) TimerEvent: {}
+[17.634943] (-) TimerEvent: {}
+[17.735829] (-) TimerEvent: {}
+[17.836737] (-) TimerEvent: {}
+[17.937640] (-) TimerEvent: {}
+[18.038543] (-) TimerEvent: {}
+[18.139435] (-) TimerEvent: {}
+[18.240324] (-) TimerEvent: {}
+[18.341219] (-) TimerEvent: {}
+[18.442112] (-) TimerEvent: {}
+[18.543070] (-) TimerEvent: {}
+[18.644100] (-) TimerEvent: {}
+[18.744986] (-) TimerEvent: {}
+[18.845882] (-) TimerEvent: {}
+[18.946866] (-) TimerEvent: {}
+[19.047929] (-) TimerEvent: {}
+[19.148892] (-) TimerEvent: {}
+[19.249861] (-) TimerEvent: {}
+[19.350835] (-) TimerEvent: {}
+[19.451823] (-) TimerEvent: {}
+[19.552908] (-) TimerEvent: {}
+[19.653887] (-) TimerEvent: {}
+[19.755029] (-) TimerEvent: {}
+[19.855906] (-) TimerEvent: {}
+[19.956797] (-) TimerEvent: {}
+[20.057709] (-) TimerEvent: {}
+[20.158639] (-) TimerEvent: {}
+[20.259541] (-) TimerEvent: {}
+[20.360432] (-) TimerEvent: {}
+[20.461326] (-) TimerEvent: {}
+[20.562211] (-) TimerEvent: {}
+[20.663155] (-) TimerEvent: {}
+[20.764035] (-) TimerEvent: {}
+[20.864902] (-) TimerEvent: {}
+[20.965768] (-) TimerEvent: {}
+[21.066684] (-) TimerEvent: {}
+[21.167553] (-) TimerEvent: {}
+[21.268434] (-) TimerEvent: {}
+[21.369316] (-) TimerEvent: {}
+[21.470177] (-) TimerEvent: {}
+[21.571066] (-) TimerEvent: {}
+[21.671935] (-) TimerEvent: {}
+[21.772864] (-) TimerEvent: {}
+[21.873728] (-) TimerEvent: {}
+[21.974629] (-) TimerEvent: {}
+[22.075527] (-) TimerEvent: {}
+[22.176489] (-) TimerEvent: {}
+[22.277350] (-) TimerEvent: {}
+[22.378208] (-) TimerEvent: {}
+[22.479102] (-) TimerEvent: {}
+[22.579964] (-) TimerEvent: {}
+[22.680838] (-) TimerEvent: {}
+[22.781719] (-) TimerEvent: {}
+[22.882682] (-) TimerEvent: {}
+[22.983720] (-) TimerEvent: {}
+[23.084581] (-) TimerEvent: {}
+[23.185455] (-) TimerEvent: {}
+[23.286328] (-) TimerEvent: {}
+[23.387219] (-) TimerEvent: {}
+[23.488152] (-) TimerEvent: {}
+[23.589181] (-) TimerEvent: {}
+[23.690084] (-) TimerEvent: {}
+[23.791159] (-) TimerEvent: {}
+[23.892184] (-) TimerEvent: {}
+[23.993196] (-) TimerEvent: {}
+[24.094185] (-) TimerEvent: {}
+[24.195284] (-) TimerEvent: {}
+[24.296139] (-) TimerEvent: {}
+[24.397009] (-) TimerEvent: {}
+[24.497897] (-) TimerEvent: {}
+[24.598829] (-) TimerEvent: {}
+[24.699712] (-) TimerEvent: {}
+[24.800613] (-) TimerEvent: {}
+[24.901508] (-) TimerEvent: {}
+[25.002450] (-) TimerEvent: {}
+[25.103329] (-) TimerEvent: {}
+[25.204216] (-) TimerEvent: {}
+[25.305084] (-) TimerEvent: {}
+[25.405961] (-) TimerEvent: {}
+[25.506892] (-) TimerEvent: {}
+[25.607782] (-) TimerEvent: {}
+[25.708809] (-) TimerEvent: {}
+[25.809689] (-) TimerEvent: {}
+[25.910545] (-) TimerEvent: {}
+[26.011432] (-) TimerEvent: {}
+[26.112328] (-) TimerEvent: {}
+[26.213232] (-) TimerEvent: {}
+[26.314153] (-) TimerEvent: {}
+[26.415094] (-) TimerEvent: {}
+[26.515994] (-) TimerEvent: {}
+[26.616889] (-) TimerEvent: {}
+[26.717798] (-) TimerEvent: {}
+[26.818744] (-) TimerEvent: {}
+[26.919636] (-) TimerEvent: {}
+[27.020532] (-) TimerEvent: {}
+[27.121433] (-) TimerEvent: {}
+[27.222333] (-) TimerEvent: {}
+[27.323276] (-) TimerEvent: {}
+[27.424177] (-) TimerEvent: {}
+[27.525085] (-) TimerEvent: {}
+[27.625822] (-) TimerEvent: {}
+[27.726567] (-) TimerEvent: {}
+[27.827285] (-) TimerEvent: {}
+[27.928009] (-) TimerEvent: {}
+[28.028744] (-) TimerEvent: {}
+[28.129475] (-) TimerEvent: {}
+[28.230207] (-) TimerEvent: {}
+[28.331016] (-) TimerEvent: {}
+[28.431897] (-) TimerEvent: {}
+[28.532698] (-) TimerEvent: {}
+[28.633433] (-) TimerEvent: {}
+[28.734151] (-) TimerEvent: {}
+[28.834910] (-) TimerEvent: {}
+[28.935639] (-) TimerEvent: {}
+[29.036358] (-) TimerEvent: {}
+[29.137115] (-) TimerEvent: {}
+[29.237970] (-) TimerEvent: {}
+[29.338792] (-) TimerEvent: {}
+[29.439637] (-) TimerEvent: {}
+[29.540484] (-) TimerEvent: {}
+[29.641351] (-) TimerEvent: {}
+[29.742240] (-) TimerEvent: {}
+[29.843138] (-) TimerEvent: {}
+[29.944047] (-) TimerEvent: {}
+[30.044985] (-) TimerEvent: {}
+[30.145989] (-) TimerEvent: {}
+[30.247117] (-) TimerEvent: {}
+[30.348153] (-) TimerEvent: {}
+[30.449273] (-) TimerEvent: {}
+[30.550394] (-) TimerEvent: {}
+[30.651464] (-) TimerEvent: {}
+[30.752524] (-) TimerEvent: {}
+[30.853266] (-) TimerEvent: {}
+[30.953996] (-) TimerEvent: {}
+[31.054758] (-) TimerEvent: {}
+[31.155492] (-) TimerEvent: {}
+[31.256229] (-) TimerEvent: {}
+[31.356972] (-) TimerEvent: {}
+[31.457715] (-) TimerEvent: {}
+[31.558485] (-) TimerEvent: {}
+[31.659256] (-) TimerEvent: {}
+[31.760001] (-) TimerEvent: {}
+[31.860756] (-) TimerEvent: {}
+[31.961499] (-) TimerEvent: {}
+[32.062251] (-) TimerEvent: {}
+[32.163029] (-) TimerEvent: {}
+[32.263763] (-) TimerEvent: {}
+[32.364491] (-) TimerEvent: {}
+[32.465231] (-) TimerEvent: {}
+[32.565964] (-) TimerEvent: {}
+[32.666738] (-) TimerEvent: {}
+[32.767467] (-) TimerEvent: {}
+[32.868200] (-) TimerEvent: {}
+[32.968940] (-) TimerEvent: {}
+[33.069687] (-) TimerEvent: {}
+[33.170479] (-) TimerEvent: {}
+[33.271207] (-) TimerEvent: {}
+[33.371941] (-) TimerEvent: {}
+[33.472670] (-) TimerEvent: {}
+[33.573526] (-) TimerEvent: {}
+[33.674592] (-) TimerEvent: {}
+[33.775331] (-) TimerEvent: {}
+[33.876076] (-) TimerEvent: {}
+[33.976816] (-) TimerEvent: {}
+[34.077550] (-) TimerEvent: {}
+[34.178306] (-) TimerEvent: {}
+[34.279101] (-) TimerEvent: {}
+[34.379849] (-) TimerEvent: {}
+[34.480601] (-) TimerEvent: {}
+[34.581335] (-) TimerEvent: {}
+[34.682071] (-) TimerEvent: {}
+[34.782853] (-) TimerEvent: {}
+[34.883597] (-) TimerEvent: {}
+[34.984387] (-) TimerEvent: {}
+[35.085274] (-) TimerEvent: {}
+[35.186028] (-) TimerEvent: {}
+[35.286909] (-) TimerEvent: {}
+[35.388034] (-) TimerEvent: {}
+[35.489055] (-) TimerEvent: {}
+[35.589926] (-) TimerEvent: {}
+[35.690847] (-) TimerEvent: {}
+[35.791848] (-) TimerEvent: {}
+[35.892918] (-) TimerEvent: {}
+[35.993659] (-) TimerEvent: {}
+[36.094438] (-) TimerEvent: {}
+[36.195168] (-) TimerEvent: {}
+[36.295916] (-) TimerEvent: {}
+[36.396664] (-) TimerEvent: {}
+[36.497411] (-) TimerEvent: {}
+[36.598145] (-) TimerEvent: {}
+[36.698976] (-) TimerEvent: {}
+[36.799979] (-) TimerEvent: {}
+[36.901105] (-) TimerEvent: {}
+[37.002084] (-) TimerEvent: {}
+[37.103141] (-) TimerEvent: {}
+[37.203967] (-) TimerEvent: {}
+[37.304802] (-) TimerEvent: {}
+[37.405831] (-) TimerEvent: {}
+[37.506828] (-) TimerEvent: {}
+[37.607566] (-) TimerEvent: {}
+[37.708305] (-) TimerEvent: {}
+[37.809045] (-) TimerEvent: {}
+[37.909790] (-) TimerEvent: {}
+[38.010479] (-) TimerEvent: {}
+[38.111195] (-) TimerEvent: {}
+[38.211907] (-) TimerEvent: {}
+[38.312619] (-) TimerEvent: {}
+[38.413335] (-) TimerEvent: {}
+[38.514105] (-) TimerEvent: {}
+[38.614937] (-) TimerEvent: {}
+[38.715657] (-) TimerEvent: {}
+[38.816385] (-) TimerEvent: {}
+[38.917197] (-) TimerEvent: {}
+[39.018175] (-) TimerEvent: {}
+[39.119081] (-) TimerEvent: {}
+[39.219971] (-) TimerEvent: {}
+[39.320804] (-) TimerEvent: {}
+[39.421635] (-) TimerEvent: {}
+[39.522563] (-) TimerEvent: {}
+[39.623728] (-) TimerEvent: {}
+[39.724873] (-) TimerEvent: {}
+[39.825949] (-) TimerEvent: {}
+[39.926846] (-) TimerEvent: {}
+[40.027562] (-) TimerEvent: {}
+[40.128279] (-) TimerEvent: {}
+[40.229005] (-) TimerEvent: {}
+[40.329811] (-) TimerEvent: {}
+[40.430849] (-) TimerEvent: {}
+[40.531782] (-) TimerEvent: {}
+[40.632746] (-) TimerEvent: {}
+[40.733777] (-) TimerEvent: {}
+[40.834796] (-) TimerEvent: {}
+[40.935719] (-) TimerEvent: {}
+[41.036456] (-) TimerEvent: {}
+[41.137309] (-) TimerEvent: {}
+[41.238435] (-) TimerEvent: {}
+[41.339294] (-) TimerEvent: {}
+[41.440017] (-) TimerEvent: {}
+[41.540735] (-) TimerEvent: {}
+[41.641465] (-) TimerEvent: {}
+[41.742185] (-) TimerEvent: {}
+[41.842941] (-) TimerEvent: {}
+[41.943659] (-) TimerEvent: {}
+[42.044378] (-) TimerEvent: {}
+[42.145116] (-) TimerEvent: {}
+[42.245843] (-) TimerEvent: {}
+[42.346579] (-) TimerEvent: {}
+[42.447302] (-) TimerEvent: {}
+[42.548067] (-) TimerEvent: {}
+[42.648921] (-) TimerEvent: {}
+[42.749730] (-) TimerEvent: {}
+[42.850853] (-) TimerEvent: {}
+[42.951933] (-) TimerEvent: {}
+[43.052815] (-) TimerEvent: {}
+[43.153869] (-) TimerEvent: {}
+[43.255035] (-) TimerEvent: {}
+[43.355947] (-) TimerEvent: {}
+[43.456817] (-) TimerEvent: {}
+[43.557735] (-) TimerEvent: {}
+[43.658691] (-) TimerEvent: {}
+[43.759546] (-) TimerEvent: {}
+[43.860420] (-) TimerEvent: {}
+[43.961282] (-) TimerEvent: {}
+[44.062187] (-) TimerEvent: {}
+[44.163135] (-) TimerEvent: {}
+[44.264031] (-) TimerEvent: {}
+[44.364890] (-) TimerEvent: {}
+[44.465688] (-) TimerEvent: {}
+[44.566445] (-) TimerEvent: {}
+[44.667182] (-) TimerEvent: {}
+[44.767951] (-) TimerEvent: {}
+[44.868845] (-) TimerEvent: {}
+[44.969849] (-) TimerEvent: {}
+[45.071014] (-) TimerEvent: {}
+[45.171987] (-) TimerEvent: {}
+[45.272917] (-) TimerEvent: {}
+[45.373953] (-) TimerEvent: {}
+[45.475136] (-) TimerEvent: {}
+[45.576114] (-) TimerEvent: {}
+[45.676980] (-) TimerEvent: {}
+[45.777706] (-) TimerEvent: {}
+[45.878537] (-) TimerEvent: {}
+[45.979520] (-) TimerEvent: {}
+[46.080570] (-) TimerEvent: {}
+[46.181693] (-) TimerEvent: {}
+[46.282834] (-) TimerEvent: {}
+[46.383872] (-) TimerEvent: {}
+[46.484719] (-) TimerEvent: {}
+[46.585835] (-) TimerEvent: {}
+[46.686931] (-) TimerEvent: {}
+[46.788044] (-) TimerEvent: {}
+[46.889037] (-) TimerEvent: {}
+[46.989889] (-) TimerEvent: {}
+[47.090768] (-) TimerEvent: {}
+[47.191494] (-) TimerEvent: {}
+[47.292259] (-) TimerEvent: {}
+[47.392984] (-) TimerEvent: {}
+[47.493814] (-) TimerEvent: {}
+[47.595033] (-) TimerEvent: {}
+[47.696085] (-) TimerEvent: {}
+[47.796954] (-) TimerEvent: {}
+[47.897839] (-) TimerEvent: {}
+[47.998736] (-) TimerEvent: {}
+[48.099571] (-) TimerEvent: {}
+[48.200368] (-) TimerEvent: {}
+[48.301377] (-) TimerEvent: {}
+[48.402538] (-) TimerEvent: {}
+[48.503580] (-) TimerEvent: {}
+[48.604736] (-) TimerEvent: {}
+[48.705696] (-) TimerEvent: {}
+[48.806829] (-) TimerEvent: {}
+[48.907727] (-) TimerEvent: {}
+[49.008612] (-) TimerEvent: {}
+[49.109651] (-) TimerEvent: {}
+[49.210778] (-) TimerEvent: {}
+[49.311791] (-) TimerEvent: {}
+[49.412639] (-) TimerEvent: {}
+[49.513374] (-) TimerEvent: {}
+[49.614128] (-) TimerEvent: {}
+[49.714919] (-) TimerEvent: {}
+[49.815633] (-) TimerEvent: {}
+[49.916352] (-) TimerEvent: {}
+[50.017062] (-) TimerEvent: {}
+[50.117823] (-) TimerEvent: {}
+[50.218646] (-) TimerEvent: {}
+[50.319381] (-) TimerEvent: {}
+[50.420106] (-) TimerEvent: {}
+[50.520831] (-) TimerEvent: {}
+[50.621555] (-) TimerEvent: {}
+[50.722268] (-) TimerEvent: {}
+[50.823009] (-) TimerEvent: {}
+[50.923720] (-) TimerEvent: {}
+[51.024437] (-) TimerEvent: {}
+[51.125155] (-) TimerEvent: {}
+[51.225862] (-) TimerEvent: {}
+[51.326555] (-) TimerEvent: {}
+[51.427259] (-) TimerEvent: {}
+[51.527962] (-) TimerEvent: {}
+[51.628677] (-) TimerEvent: {}
+[51.729420] (-) TimerEvent: {}
+[51.830152] (-) TimerEvent: {}
+[51.930911] (-) TimerEvent: {}
+[52.031695] (-) TimerEvent: {}
+[52.132588] (-) TimerEvent: {}
+[52.233312] (-) TimerEvent: {}
+[52.334034] (-) TimerEvent: {}
+[52.434792] (-) TimerEvent: {}
+[52.535514] (-) TimerEvent: {}
+[52.636260] (-) TimerEvent: {}
+[52.736976] (-) TimerEvent: {}
+[52.837709] (-) TimerEvent: {}
+[52.938582] (-) TimerEvent: {}
+[53.039749] (-) TimerEvent: {}
+[53.140825] (-) TimerEvent: {}
+[53.241646] (-) TimerEvent: {}
+[53.342546] (-) TimerEvent: {}
+[53.443659] (-) TimerEvent: {}
+[53.544586] (-) TimerEvent: {}
+[53.645329] (-) TimerEvent: {}
+[53.746068] (-) TimerEvent: {}
+[53.846825] (-) TimerEvent: {}
+[53.947589] (-) TimerEvent: {}
+[54.048404] (-) TimerEvent: {}
+[54.149120] (-) TimerEvent: {}
+[54.249829] (-) TimerEvent: {}
+[54.350553] (-) TimerEvent: {}
+[54.451258] (-) TimerEvent: {}
+[54.551977] (-) TimerEvent: {}
+[54.652690] (-) TimerEvent: {}
+[54.753408] (-) TimerEvent: {}
+[54.854155] (-) TimerEvent: {}
+[54.954899] (-) TimerEvent: {}
+[55.055611] (-) TimerEvent: {}
+[55.156438] (-) TimerEvent: {}
+[55.257513] (-) TimerEvent: {}
+[55.358462] (-) TimerEvent: {}
+[55.459361] (-) TimerEvent: {}
+[55.560282] (-) TimerEvent: {}
+[55.661290] (-) TimerEvent: {}
+[55.762264] (-) TimerEvent: {}
+[55.863192] (-) TimerEvent: {}
+[55.964215] (-) TimerEvent: {}
+[56.065217] (-) TimerEvent: {}
+[56.166245] (-) TimerEvent: {}
+[56.267301] (-) TimerEvent: {}
+[56.368275] (-) TimerEvent: {}
+[56.469360] (-) TimerEvent: {}
+[56.570297] (-) TimerEvent: {}
+[56.671216] (-) TimerEvent: {}
+[56.771958] (-) TimerEvent: {}
+[56.872735] (-) TimerEvent: {}
+[56.973757] (-) TimerEvent: {}
+[57.074687] (-) TimerEvent: {}
+[57.175423] (-) TimerEvent: {}
+[57.276248] (-) TimerEvent: {}
+[57.377335] (-) TimerEvent: {}
+[57.478539] (-) TimerEvent: {}
+[57.579611] (-) TimerEvent: {}
+[57.680452] (-) TimerEvent: {}
+[57.781291] (-) TimerEvent: {}
+[57.882131] (-) TimerEvent: {}
+[57.983014] (-) TimerEvent: {}
+[58.083930] (-) TimerEvent: {}
+[58.185092] (-) TimerEvent: {}
+[58.286264] (-) TimerEvent: {}
+[58.387435] (-) TimerEvent: {}
+[58.488184] (-) TimerEvent: {}
+[58.588918] (-) TimerEvent: {}
+[58.689642] (-) TimerEvent: {}
+[58.790397] (-) TimerEvent: {}
+[58.891169] (-) TimerEvent: {}
+[58.992103] (-) TimerEvent: {}
+[59.093055] (-) TimerEvent: {}
+[59.194029] (-) TimerEvent: {}
+[59.294906] (-) TimerEvent: {}
+[59.395622] (-) TimerEvent: {}
+[59.496338] (-) TimerEvent: {}
+[59.597063] (-) TimerEvent: {}
+[59.697776] (-) TimerEvent: {}
+[59.798515] (-) TimerEvent: {}
+[59.899254] (-) TimerEvent: {}
+[59.999998] (-) TimerEvent: {}
+[60.100791] (-) TimerEvent: {}
+[60.201619] (-) TimerEvent: {}
+[60.302393] (-) TimerEvent: {}
+[60.403121] (-) TimerEvent: {}
+[60.503857] (-) TimerEvent: {}
+[60.604611] (-) TimerEvent: {}
+[60.705348] (-) TimerEvent: {}
+[60.806086] (-) TimerEvent: {}
+[60.906854] (-) TimerEvent: {}
+[61.007585] (-) TimerEvent: {}
+[61.108316] (-) TimerEvent: {}
+[61.209093] (-) TimerEvent: {}
+[61.309899] (-) TimerEvent: {}
+[61.410656] (-) TimerEvent: {}
+[61.511325] (-) TimerEvent: {}
+[61.625520] (-) TimerEvent: {}
+[61.726240] (-) TimerEvent: {}
+[61.827035] (-) TimerEvent: {}
+[61.927759] (-) TimerEvent: {}
+[62.028485] (-) TimerEvent: {}
+[62.129207] (-) TimerEvent: {}
+[62.229936] (-) TimerEvent: {}
+[62.330694] (-) TimerEvent: {}
+[62.431414] (-) TimerEvent: {}
+[62.532142] (-) TimerEvent: {}
+[62.632865] (-) TimerEvent: {}
+[62.733585] (-) TimerEvent: {}
+[62.834299] (-) TimerEvent: {}
+[62.935052] (-) TimerEvent: {}
+[63.035782] (-) TimerEvent: {}
+[63.136499] (-) TimerEvent: {}
+[63.237226] (-) TimerEvent: {}
+[63.337940] (-) TimerEvent: {}
+[63.438698] (-) TimerEvent: {}
+[63.539410] (-) TimerEvent: {}
+[63.640149] (-) TimerEvent: {}
+[63.740875] (-) TimerEvent: {}
+[63.841600] (-) TimerEvent: {}
+[63.942320] (-) TimerEvent: {}
+[64.043069] (-) TimerEvent: {}
+[64.143794] (-) TimerEvent: {}
+[64.244513] (-) TimerEvent: {}
+[64.345227] (-) TimerEvent: {}
+[64.445947] (-) TimerEvent: {}
+[64.546719] (-) TimerEvent: {}
+[64.647446] (-) TimerEvent: {}
+[64.748163] (-) TimerEvent: {}
+[64.848894] (-) TimerEvent: {}
+[64.949614] (-) TimerEvent: {}
+[65.050376] (-) TimerEvent: {}
+[65.151090] (-) TimerEvent: {}
+[65.251810] (-) TimerEvent: {}
+[65.352541] (-) TimerEvent: {}
+[65.453263] (-) TimerEvent: {}
+[65.553975] (-) TimerEvent: {}
+[65.654668] (-) TimerEvent: {}
+[65.755386] (-) TimerEvent: {}
+[65.856108] (-) TimerEvent: {}
+[65.956822] (-) TimerEvent: {}
+[66.057543] (-) TimerEvent: {}
+[66.158253] (-) TimerEvent: {}
+[66.259006] (-) TimerEvent: {}
+[66.359717] (-) TimerEvent: {}
+[66.460434] (-) TimerEvent: {}
+[66.561148] (-) TimerEvent: {}
+[66.661885] (-) TimerEvent: {}
+[66.762608] (-) TimerEvent: {}
+[66.863325] (-) TimerEvent: {}
+[66.964034] (-) TimerEvent: {}
+[67.064749] (-) TimerEvent: {}
+[67.165461] (-) TimerEvent: {}
+[67.266180] (-) TimerEvent: {}
+[67.366921] (-) TimerEvent: {}
+[67.467642] (-) TimerEvent: {}
+[67.568352] (-) TimerEvent: {}
+[67.669066] (-) TimerEvent: {}
+[67.769775] (-) TimerEvent: {}
+[67.870492] (-) TimerEvent: {}
+[67.971183] (-) TimerEvent: {}
+[68.071907] (-) TimerEvent: {}
+[68.172655] (-) TimerEvent: {}
+[68.273375] (-) TimerEvent: {}
+[68.374084] (-) TimerEvent: {}
+[68.474853] (-) TimerEvent: {}
+[68.575542] (-) TimerEvent: {}
+[68.676265] (-) TimerEvent: {}
+[68.776975] (-) TimerEvent: {}
+[68.877690] (-) TimerEvent: {}
+[68.978438] (-) TimerEvent: {}
+[69.079156] (-) TimerEvent: {}
+[69.179870] (-) TimerEvent: {}
+[69.280587] (-) TimerEvent: {}
+[69.381304] (-) TimerEvent: {}
+[69.482021] (-) TimerEvent: {}
+[69.582795] (-) TimerEvent: {}
+[69.683506] (-) TimerEvent: {}
+[69.784198] (-) TimerEvent: {}
+[69.884925] (-) TimerEvent: {}
+[69.985640] (-) TimerEvent: {}
+[70.086387] (-) TimerEvent: {}
+[70.187136] (-) TimerEvent: {}
+[70.287845] (-) TimerEvent: {}
+[70.388556] (-) TimerEvent: {}
+[70.489282] (-) TimerEvent: {}
+[70.589998] (-) TimerEvent: {}
+[70.690764] (-) TimerEvent: {}
+[70.791491] (-) TimerEvent: {}
+[70.892212] (-) TimerEvent: {}
+[70.992924] (-) TimerEvent: {}
+[71.093635] (-) TimerEvent: {}
+[71.194402] (-) TimerEvent: {}
+[71.295143] (-) TimerEvent: {}
+[71.395853] (-) TimerEvent: {}
+[71.496578] (-) TimerEvent: {}
+[71.597288] (-) TimerEvent: {}
+[71.698003] (-) TimerEvent: {}
+[71.798753] (-) TimerEvent: {}
+[71.899499] (-) TimerEvent: {}
+[72.000215] (-) TimerEvent: {}
+[72.100936] (-) TimerEvent: {}
+[72.201635] (-) TimerEvent: {}
+[72.302520] (-) TimerEvent: {}
+[72.403374] (-) TimerEvent: {}
+[72.504271] (-) TimerEvent: {}
+[72.605003] (-) TimerEvent: {}
+[72.705751] (-) TimerEvent: {}
+[72.806550] (-) TimerEvent: {}
+[72.907416] (-) TimerEvent: {}
+[73.008336] (-) TimerEvent: {}
+[73.109203] (-) TimerEvent: {}
+[73.209928] (-) TimerEvent: {}
+[73.310689] (-) TimerEvent: {}
+[73.411414] (-) TimerEvent: {}
+[73.512140] (-) TimerEvent: {}
+[73.612865] (-) TimerEvent: {}
+[73.713596] (-) TimerEvent: {}
+[73.814327] (-) TimerEvent: {}
+[73.915088] (-) TimerEvent: {}
+[74.015824] (-) TimerEvent: {}
+[74.116560] (-) TimerEvent: {}
+[74.217293] (-) TimerEvent: {}
+[74.318027] (-) TimerEvent: {}
+[74.418829] (-) TimerEvent: {}
+[74.519559] (-) TimerEvent: {}
+[74.620234] (-) TimerEvent: {}
+[74.720898] (-) TimerEvent: {}
+[74.821564] (-) TimerEvent: {}
+[74.922230] (-) TimerEvent: {}
+[75.022972] (-) TimerEvent: {}
+[75.123851] (-) TimerEvent: {}
+[75.224812] (-) TimerEvent: {}
+[75.325702] (-) TimerEvent: {}
+[75.426440] (-) TimerEvent: {}
+[75.527123] (-) TimerEvent: {}
+[75.627868] (-) TimerEvent: {}
+[75.728667] (-) TimerEvent: {}
+[75.829555] (-) TimerEvent: {}
+[75.930297] (-) TimerEvent: {}
+[76.031079] (-) TimerEvent: {}
+[76.071396] (tinyml_model) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rfModel\x1b[0m\n'}
+[76.131316] (-) TimerEvent: {}
+[76.232054] (-) TimerEvent: {}
+[76.332927] (-) TimerEvent: {}
+[76.433682] (-) TimerEvent: {}
+[76.534466] (-) TimerEvent: {}
+[76.635203] (-) TimerEvent: {}
+[76.736088] (-) TimerEvent: {}
+[76.836833] (-) TimerEvent: {}
+[76.937565] (-) TimerEvent: {}
+[77.038284] (-) TimerEvent: {}
+[77.139026] (-) TimerEvent: {}
+[77.239759] (-) TimerEvent: {}
+[77.340483] (-) TimerEvent: {}
+[77.441244] (-) TimerEvent: {}
+[77.542181] (-) TimerEvent: {}
+[77.643221] (-) TimerEvent: {}
+[77.743970] (-) TimerEvent: {}
+[77.844723] (-) TimerEvent: {}
+[77.856503] (tinyml_model) StdoutLine: {'line': b'[100%] Built target rfModel\n'}
+[77.903406] (tinyml_model) CommandEnded: {'returncode': 0}
+[77.944928] (-) TimerEvent: {}
+[78.013050] (tinyml_model) JobProgress: {'identifier': 'tinyml_model', 'progress': 'install'}
+[78.016092] (tinyml_model) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model'], 'cwd': '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'bhavesh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bhavesh'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1598'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bhavesh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bhavesh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bhavesh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/bhavesh-ThinkPad-X280:@/tmp/.ICE-unix/1598,unix/bhavesh-ThinkPad-X280:/tmp/.ICE-unix/1598'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60bf3fbb_96e6_4887_a75f_5e7449930bb1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LJD6H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.5598'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/build/tinyml_model'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cb9d23fae4d58ee042bb969765b0dc9d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[78.045164] (-) TimerEvent: {}
+[78.047346] (tinyml_model) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[78.049353] (tinyml_model) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[78.051679] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/lib/tinyml_model/rfModel\n'}
+[78.091301] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/ament_index/resource_index/package_run_dependencies/tinyml_model\n'}
+[78.128558] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/ament_index/resource_index/parent_prefix_path/tinyml_model\n'}
+[78.145361] (-) TimerEvent: {}
+[78.165961] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/ament_prefix_path.sh\n'}
+[78.204774] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/ament_prefix_path.dsv\n'}
+[78.242008] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/path.sh\n'}
+[78.245555] (-) TimerEvent: {}
+[78.280801] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/environment/path.dsv\n'}
+[78.318253] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.bash\n'}
+[78.345799] (-) TimerEvent: {}
+[78.355300] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.sh\n'}
+[78.392932] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.zsh\n'}
+[78.429759] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/local_setup.dsv\n'}
+[78.445996] (-) TimerEvent: {}
+[78.467137] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.dsv\n'}
+[78.504914] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/ament_index/resource_index/packages/tinyml_model\n'}
+[78.542512] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/cmake/tinyml_modelConfig.cmake\n'}
+[78.546577] (-) TimerEvent: {}
+[78.581734] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/cmake/tinyml_modelConfig-version.cmake\n'}
+[78.621458] (tinyml_model) StdoutLine: {'line': b'-- Symlinking: /home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/AIHTsim/install/tinyml_model/share/tinyml_model/package.xml\n'}
+[78.646847] (-) TimerEvent: {}
+[78.665940] (tinyml_model) CommandEnded: {'returncode': 0}
+[78.747390] (-) TimerEvent: {}
+[78.848723] (-) TimerEvent: {}
+[78.949519] (-) TimerEvent: {}
+[79.050476] (-) TimerEvent: {}
+[79.152463] (-) TimerEvent: {}
+[79.253170] (-) TimerEvent: {}
+[79.354031] (-) TimerEvent: {}
+[79.454979] (-) TimerEvent: {}
+[79.503556] (tinyml_model) JobEnded: {'identifier': 'tinyml_model', 'rc': 0}
+[79.506109] (-) EventReactorShutdown: {}

@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'model = ml_model.rfModel:main'
+            'model = ml_model.model1:main'
         ],
     },
 )
