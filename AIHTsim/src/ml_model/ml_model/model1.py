@@ -27,7 +27,7 @@ class ScanToVelocityNode(Node):
         self.model = self.load_model()
 
     def load_model(self):
-        with open('/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/bag_files/finalModel.pkl', 'rb') as f:
+        with open('/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/bag_files/dt_model.pkl', 'rb') as f:
             model = pickle.load(f)
         return model
 

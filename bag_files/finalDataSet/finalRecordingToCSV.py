@@ -25,7 +25,7 @@ class BagFileParser():
 
 if __name__ == "__main__":
 
-        bag_file = "/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/bag_files/finalDataSet/moreData_0.db3"
+        bag_file = "/home/bhavesh/Documents/AutonomousNavigationAndCollisionAvoidanceBot/bag_files/finalDataSet/finalDataset_0.db3"
 
         parser = BagFileParser(bag_file)
 
